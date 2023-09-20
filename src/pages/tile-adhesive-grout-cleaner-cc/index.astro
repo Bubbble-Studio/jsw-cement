@@ -1,0 +1,19 @@
+---
+import type { GetStaticPaths } from "astro";
+import tileAdhesive from '../../content/tile-adhesive-grout-cleaner-cc';
+
+export const getStaticPaths = (() => {
+    const allPages = tileAdhesive;
+    const paths = allPages.map((page) => ({
+        params: { product: page.slug },
+        props: { data: page },
+    }));
+
+    return paths;
+}) satisfies GetStaticPaths;
+---
+
+<div>
+    List of pages: 
+    
+</div>
