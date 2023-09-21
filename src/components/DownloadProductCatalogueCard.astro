@@ -1,0 +1,38 @@
+---
+let {Title,image,buttonText,buttonLink,hasButton}=Astro.props
+---
+
+<div class="download-catalogue-bblstds" style={{
+    background:`url(${image})`,
+    backgroundSize:'cover',
+    backgroundPosition:'center',
+    backgroundRepeat:'no-repeat'
+}}
+>
+    <h2>
+        {Title}
+    </h2>
+    {
+        hasButton&&
+        <a style={{
+            color:"black",
+            backgroundColor:"white",
+            padding:"1rem 3rem",
+            borderRadius:"2rem",
+        }} href={buttonLink}>{buttonText}</a>
+    }
+</div>
+
+<style>
+.download-catalogue-bblstds{
+    
+    margin:4rem 6rem;
+    border-radius:2rem;
+    color:white;
+    height:400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+</style>

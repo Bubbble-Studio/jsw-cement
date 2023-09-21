@@ -1,4 +1,5 @@
 ---
+import DownloadProductCatalogueCard from "./DownloadProductCatalogueCard.astro";
 let {headerBG,Title,products,otherCategories}=Astro.props;
 ---
 
@@ -112,6 +113,9 @@ let {headerBG,Title,products,otherCategories}=Astro.props;
                 }
             </div>
     </section>
+    <section>
+        <DownloadProductCatalogueCard hasButton={true} image="/images/tile-adhesive/Rectangle522.png" Title="Download Product Catalogue" buttonText="Download" buttonLink="/download"  />
+    </section>
 </main>
 
 <style>
@@ -148,7 +152,7 @@ let {headerBG,Title,products,otherCategories}=Astro.props;
         opacity: 1;
         left:0;
     }
-    .product-box-bblestds:hover h4{
+    .product-box-bblestds:hover h5{
         transition: all 0.3s ease-in-out;
         color:white;
         z-index: 4;
@@ -172,6 +176,5 @@ let {headerBG,Title,products,otherCategories}=Astro.props;
     .product-box-bblestds:hover .product-button-bblestds{
         bottom:6rem;
         z-index: 4;
-        
     }
 </style>
