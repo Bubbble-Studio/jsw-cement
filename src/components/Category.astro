@@ -1,6 +1,6 @@
 ---
 import DownloadProductCatalogueCard from "./DownloadProductCatalogueCard.astro";
-let {headerBG,Title,products,otherCategories}=Astro.props;
+let {headerBG,title,products,otherCategories}=Astro.props;
 ---
 
 <main>
@@ -41,7 +41,7 @@ let {headerBG,Title,products,otherCategories}=Astro.props;
             <h2 style={{
                 fontWeight:"bold",
             }}>
-                {Title}
+                {title}
             </h2>
         </div>
         <div style={{
@@ -114,7 +114,7 @@ let {headerBG,Title,products,otherCategories}=Astro.props;
             </div>
     </section>
     <section>
-        <DownloadProductCatalogueCard hasButton={true} image="/images/tile-adhesive/Rectangle522.png" Title="Download Product Catalogue" buttonText="Download" buttonLink="/download"  />
+        <DownloadProductCatalogueCard hasButton={true} image="/images/tile-adhesive/Rectangle522.png" title="Download Product Catalogue" buttonText="Download" buttonLink="/download"  />
     </section>
 </main>
 
