@@ -1,0 +1,11 @@
+---
+const { type = "container", className = "" } = Astro.props;
+---
+
+<section
+  class={`${
+    type === "container" ? "container-1360-wrp" : ""
+  } plr-15 ${className}`}
+>
+  <slot />
+</section>
