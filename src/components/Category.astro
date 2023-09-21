@@ -58,7 +58,9 @@ let {headerBG,Title,products,otherCategories}=Astro.props;
                             height:"80%",
                             aspectRatio:"7/10",
                         }} src={product.image} alt={product.name}/>
-                            <h5>{product.name}</h5>
+                            <h5 style={{
+                fontWeight:"bold",
+            }}>{product.name}</h5>
                             <a class="product-button-bblestds"  href={product.link}>View Details</a>
                          
                         </div>
@@ -100,7 +102,9 @@ let {headerBG,Title,products,otherCategories}=Astro.props;
                                 padding:"1rem",
                             }}>
                                 <img src={category.image} alt={category.name}/>
-                                <h5>{category.name}</h5>
+                                <h5 style={{
+                fontWeight:"bold",
+            }}>{category.name}</h5>
                                 
                             </a>
                         )
