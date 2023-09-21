@@ -1,0 +1,41 @@
+---
+import MainLayout from "../../layouts/MainLayout.astro";
+const sliderImages = [
+  "/images/construction-chemicals/jsw-slider-img1.jpg",
+  "/images/construction-chemicals/jsw-slider-img2.jpg",
+  "/images/construction-chemicals/jsw-slider-img3.jpg",
+  "/images/construction-chemicals/jsw-slider-img4.jpg",
+];
+---
+
+<MainLayout>
+  <div class="hero-slider">
+    {
+      sliderImages.map((img) => (
+        <div class="w-100">
+          <img
+            src={img}
+            alt="JSW Construction Chemicals"
+            class="w-100 object-fit-cover"
+          />
+        </div>
+      ))
+    }
+  </div>
+</MainLayout>
+
+<script is:inline>
+$(document).ready(function () {
+    $(".hero-slider").slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: "linear",
+        adaptiveHeight: true,
+        autoplay: true,
+      autoplaySpeed: 5000,
+    });
+  });
+</script>

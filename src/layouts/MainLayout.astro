@@ -1,6 +1,7 @@
 ---
 import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
+const { title } = Astro.props;
 ---
 
 <!doctype html>
@@ -44,7 +45,7 @@ import Header from "../components/Header.astro";
 
     <link href="/css/responsive.css" rel="stylesheet" />
 
-    <title>Astro</title>
+    <title>{title || "Astro"}</title>
   </head>
   <body>
     <Header />
@@ -56,33 +57,34 @@ import Header from "../components/Header.astro";
 <script is:inline src="/js/jquery-3.5.0.min.js"></script>
 
 <script
+  is:inline
   src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
   integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
   crossorigin="anonymous"></script>
 
-<script src="/js/bootstrap.bundle.min.js"></script>
+<script is:inline src="/js/bootstrap.bundle.min.js"></script>
 
-<script src="/js/hoverIntent.js"></script>
+<script is:inline src="/js/hoverIntent.js"></script>
 
-<script src="/js/slick.min.js"></script>
+<script is:inline src="/js/slick.min.js"></script>
 
-<script src="/js/jquery.fancybox.min.js"></script>
+<script is:inline src="/js/jquery.fancybox.min.js"></script>
 
-<script src="/js/swiper.js"></script>
+<script is:inline src="/js/swiper.js"></script>
 
-<script src="/js/main.js"></script>
+<script is:inline src="/js/main.js"></script>
 
 <script is:inline>
 $(document).ready(function () {
-    $(".collapse").on("shown.bs.collapse", function (e) {
-        var $card = $(this).closest(".card");
+  $(".collapse").on("shown.bs.collapse", function (e) {
+    var $card = $(this).closest(".card");
 
-        $("html,body").animate(
-            {
-                scrollTop: $card.offset().top,
-            },
-            500
-        );
-    });
+    $("html,body").animate(
+      {
+        scrollTop: $card.offset().top,
+      },
+      500
+    );
+  });
 });
 </script>
