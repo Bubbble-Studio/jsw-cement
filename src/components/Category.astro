@@ -1,160 +1,131 @@
 ---
+import SectionLayout from "../layouts/SectionLayout.astro";
+import { JSW_COLORS } from "../utils/constants";
 import DownloadProductCatalogueCard from "./DownloadProductCatalogueCard.astro";
 let { headerBG, title, products, otherCategories } = Astro.props;
 ---
 
-<main>
+<section
+  class=""
+  style={{
+    backgroundImage: `url(${headerBG})`,
+    height: "400px",
+    width: "100%",
+  }}
+>
+</section>
+<SectionLayout className="my-5">
   <div
-    class=""
+    class="d-flex justify-content-start align-items-center"
+    style={`color:${JSW_COLORS.p1}`}
+  >
+    <span
+      style={`display:block; width:30px; height:2px; background:${JSW_COLORS.p1}`}
+    ></span>
+    <p class="mb-0 ml-2">SOLUTIONS</p>
+  </div>
+  <h1>{title}</h1>
+</SectionLayout>
+<SectionLayout
+  style={{
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
+    padding: "4rem",
+  }}
+>
+  <div
     style={{
-      backgroundImage: `url(${headerBG})`,
-      height: "400px",
       width: "100%",
     }}
   >
   </div>
-  <section
+  <div
     style={{
       display: "flex",
-      flexDirection: "column",
+      flexWrap: "wrap",
+      gap: "2rem",
+      justifyContent: "flex-start",
       alignItems: "center",
-      justifyContent: "center",
-      padding: "4rem",
     }}
   >
-    <div
-      style={{
-        width: "100%",
-      }}
-    >
-      <span
-        style={{
-          display: "flex",
-          justifyContent: "flex-start",
-          alignItems: "center",
-          gap: "1rem",
-        }}
-      >
-        <span
-          style={{
-            display: "inline-block",
-            height: "3px",
-            width: "60px",
-            background: "#D71920",
-          }}></span>
-        <p style={{ margin: "0", color: "#D71920" }}>SOLUTIONS</p>
-      </span>
-      <h2
-        style={{
-          fontWeight: "bold",
-        }}
-      >
-        {title}
-      </h2>
-    </div>
-    <div
-      style={{
-        display: "flex",
-        flexWrap: "wrap",
-        gap: "2rem",
-        justifyContent: "flex-start",
-        alignItems: "center",
-      }}
-    >
-      {
-        products.map((product) => {
-          return (
-            <div class="product-box-bblestds">
-              <img
-                style={{
-                  height: "80%",
-                  aspectRatio: "7/10",
-                }}
-                src={product.image}
-                alt={product.name}
-              />
-              <h5
-                style={{
-                  fontWeight: "bold",
-                }}
-              >
-                {product.name}
-              </h5>
-              <a class="product-button-bblestds" href={product.link}>
-                View Details
-              </a>
-            </div>
-          );
-        })
-      }
-    </div>
-  </section>
-  <section
-    style={{
-      display: "flex",
-      flexDirection: "column",
-      alignItems: "center",
-      justifyContent: "center",
-      gap: "4rem",
-      padding: "4rem",
-    }}
-  >
-    <h1
-      style={{
-        fontWeight: "bold",
-      }}
-    >
-      Other Category Ranges
-    </h1>
-    <div
-      style={{
-        display: "flex",
-        flexWrap: "wrap",
-        gap: "2rem",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      {
-        otherCategories.map((category) => {
-          return (
-            <a
+    {
+      products.map((product) => {
+        return (
+          <div class="product-box-bblestds">
+            <img
               style={{
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "center",
-                justifyContent: "center",
-                gap: "3rem",
-                textDecoration: "none",
-                color: "#17479E",
-                position: "relative",
-                padding: "1rem",
+                height: "80%",
+                aspectRatio: "7/10",
+              }}
+              src={product.image}
+              alt={product.name}
+            />
+            <h5
+              style={{
+                fontWeight: "bold",
               }}
             >
-              <img src={category.image} alt={category.name} />
-              <h5
-                style={{
-                  fontWeight: "bold",
-                }}
-              >
-                {category.name}
-              </h5>
+              {product.name}
+            </h5>
+            <a class="product-button-bblestds" href={product.link}>
+              View Details
             </a>
-          );
-        })
-      }
-    </div>
-  </section>
-  <section>
-    <DownloadProductCatalogueCard
-      hasButton={true}
-      image="/images/tile-adhesive/Rectangle522.png"
-      title="Download Product Catalogue"
-      buttonText="Download"
-      buttonLink="/download"
-    />
-  </section>
-</main>
+          </div>
+        );
+      })
+    }
+  </div>
+</SectionLayout>
+<SectionLayout>
+  <h1
+    style={{
+      fontWeight: "bold",
+    }}
+  >
+    Other Category Ranges
+  </h1>
+  <div class="d-flex flex-wrap justify-content-between align-items-center">
+    {
+      otherCategories.map((category) => {
+        return (
+          <a
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              justifyContent: "center",
+              gap: "3rem",
+              textDecoration: "none",
+              color: "#17479E",
+              position: "relative",
+              padding: "1rem",
+            }}
+          >
+            <img src={category.image} alt={category.name} />
+            <h5
+              style={{
+                fontWeight: "bold",
+              }}
+            >
+              {category.name}
+            </h5>
+          </a>
+        );
+      })
+    }
+  </div>
+</SectionLayout>
+<SectionLayout className="my-5">
+  <DownloadProductCatalogueCard
+    hasButton={true}
+    image="/images/tile-adhesive/Rectangle522.png"
+    title="Download Product Catalogue"
+    buttonText="Download"
+    buttonLink="/download"
+  />
+</SectionLayout>
 
 <style>
   .product-box-bblestds {
