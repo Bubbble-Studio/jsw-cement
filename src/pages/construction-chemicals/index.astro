@@ -1,5 +1,9 @@
 ---
+import CategorySection from "../../components/CategorySection.astro";
 import MainLayout from "../../layouts/MainLayout.astro";
+import SectionLayout from "../../layouts/SectionLayout.astro";
+import { JSW_COLORS } from "../../utils/constants.js";
+
 const sliderImages = [
   "/images/construction-chemicals/jsw-slider-img1.jpg",
   "/images/construction-chemicals/jsw-slider-img2.jpg",
@@ -9,7 +13,7 @@ const sliderImages = [
 ---
 
 <MainLayout>
-  <div class="hero-slider">
+  <section class="hero-slider">
     {
       sliderImages.map((img) => (
         <div class="w-100">
@@ -21,7 +25,55 @@ const sliderImages = [
         </div>
       ))
     }
-  </div>
+  </section>
+  <SectionLayout className="my-5">
+    <div
+      class="d-flex justify-content-start align-items-center"
+      style={`color:${JSW_COLORS.p1}`}
+    >
+      <span
+        style={`display:block; width:30px; height:2px; background:${JSW_COLORS.p1}`}
+      ></span>
+      <p class="mb-0 ml-2">SOLUTIONS</p>
+    </div>
+    <h1>Wide Range of Solutions</h1>
+  </SectionLayout>
+  <CategorySection
+    title="Tile Adhesive, Grout & Cleaner"
+    description="Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis."
+    features={new Array(4)
+      .fill(null)
+      .map((it) => "Lorem ipsum dolor sit amet consectetur")}
+    image="/images/construction-chemicals/jsw-slider-img1.jpg"
+  />
+  <CategorySection
+    direction="rtl"
+    bg="light"
+    title="Tile Adhesive, Grout & Cleaner"
+    description="Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis."
+    features={new Array(4)
+      .fill(null)
+      .map((it) => "Lorem ipsum dolor sit amet consectetur")}
+    image="/images/construction-chemicals/jsw-slider-img1.jpg"
+  />
+  <CategorySection
+    title="Tile Adhesive, Grout & Cleaner"
+    description="Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis."
+    features={new Array(4)
+      .fill(null)
+      .map((it) => "Lorem ipsum dolor sit amet consectetur")}
+    image="/images/construction-chemicals/jsw-slider-img1.jpg"
+  />
+  <CategorySection
+    direction="rtl"
+    bg="light"
+    title="Tile Adhesive, Grout & Cleaner"
+    description="Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis."
+    features={new Array(4)
+      .fill(null)
+      .map((it) => "Lorem ipsum dolor sit amet consectetur")}
+    image="/images/construction-chemicals/jsw-slider-img1.jpg"
+  />
 </MainLayout>
 
 <script is:inline>
@@ -35,7 +87,7 @@ $(document).ready(function () {
         cssEase: "linear",
         adaptiveHeight: true,
         autoplay: true,
-      autoplaySpeed: 5000,
+        autoplaySpeed: 5000,
     });
-  });
+});
 </script>
