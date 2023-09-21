@@ -58,7 +58,7 @@ let {headerBG,Title,products,otherCategories}=Astro.props;
                             height:"80%",
                             aspectRatio:"7/10",
                         }} src={product.image} alt={product.name}/>
-                            <h4>{product.name}</h4>
+                            <h5>{product.name}</h5>
                             <a class="product-button-bblestds"  href={product.link}>View Details</a>
                          
                         </div>
@@ -118,6 +118,7 @@ let {headerBG,Title,products,otherCategories}=Astro.props;
         align-items:center;
         justify-content:center;
         padding :1rem 1.5rem;
+        gap:1rem;
         background:linear-gradient(180deg, #21336804 , #21336826);
         border-radius:2rem;
         position :relative;
