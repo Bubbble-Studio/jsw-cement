@@ -10,5 +10,12 @@ const { href, style, className = "" } = Astro.props;
   .anchor-button {
     padding: 0.75rem 1.5rem;
     border-radius: 3rem;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+  .anchor-button:hover {
+    scale: 1.05;
   }
 </style>

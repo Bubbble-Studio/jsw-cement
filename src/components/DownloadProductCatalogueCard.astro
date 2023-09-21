@@ -1,38 +1,44 @@
 ---
-let {title,image,buttonText,buttonLink,hasButton}=Astro.props
+import { JSW_COLORS } from "../utils/constants";
+import AnchorButton from "./AnchorButton.astro";
+let { title, image, buttonText, buttonLink, hasButton } = Astro.props;
 ---
 
-<div class="download-catalogue-bblstds" style={{
-    background:`url(${image})`,
-    backgroundSize:'cover',
-    backgroundPosition:'center',
-    backgroundRepeat:'no-repeat'
-}}
+<div
+  class="download-catalogue-bblstds d-flex flex-column flex-md-row justify-content-center justify-content-md-between align-items-start align-items-md-center"
+  style={{
+    background: `url(${image})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+  }}
 >
-    <h2>
-        {title}
-    </h2>
-    {
-        hasButton&&
-        <a style={{
-            color:"black",
-            backgroundColor:"white",
-            padding:"1rem 3rem",
-            borderRadius:"2rem",
-        }} href={buttonLink}>{buttonText}</a>
-    }
+  <h1>
+    {title}
+  </h1>
+  {
+    hasButton && (
+      <AnchorButton
+        style={`background-color:${JSW_COLORS.bg.light}; color: ${JSW_COLORS.text.dark}`}
+        className="mt-4 mt-md-0"
+      >
+        {buttonText}
+      </AnchorButton>
+    )
+  }
 </div>
 
 <style>
-.download-catalogue-bblstds{
-    
-    margin:4rem 6rem;
-    border-radius:2rem;
-    color:white;
-    height:400px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
+  .download-catalogue-bblstds {
+    padding: 0 2rem;
+    border-radius: 2rem;
+    color: white;
+    height: 400px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .download-catalogue-bblstds {
+      height: 300px;
+    }
+  }
 </style>

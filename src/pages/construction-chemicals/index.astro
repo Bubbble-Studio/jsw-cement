@@ -1,5 +1,6 @@
 ---
 import CategorySection from "../../components/CategorySection.astro";
+import DownloadProductCatalogueCard from "../../components/DownloadProductCatalogueCard.astro";
 import MainLayout from "../../layouts/MainLayout.astro";
 import SectionLayout from "../../layouts/SectionLayout.astro";
 import { JSW_COLORS } from "../../utils/constants.js";
@@ -74,6 +75,15 @@ const sliderImages = [
       .map((it) => "Lorem ipsum dolor sit amet consectetur")}
     image="/images/construction-chemicals/jsw-slider-img1.jpg"
   />
+  <SectionLayout className="my-5">
+    <DownloadProductCatalogueCard
+      hasButton={true}
+      image="/images/tile-adhesive/Rectangle522.png"
+      title="Download Product Catalogue"
+      buttonText="Download"
+      buttonLink="/download"
+    />
+  </SectionLayout>
 </MainLayout>
 
 <script is:inline>

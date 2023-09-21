@@ -1,180 +1,218 @@
 ---
 import DownloadProductCatalogueCard from "./DownloadProductCatalogueCard.astro";
-let {headerBG,title,products,otherCategories}=Astro.props;
+let { headerBG, title, products, otherCategories } = Astro.props;
 ---
 
 <main>
-    <div class="" style={
-        {
-            backgroundImage:`url(${headerBG})`,
-            height:"400px",
-            width:"100%",
-        }
-    } ></div>
-    <section style={{
-        display:
-        "flex",
-        flexDirection:"column",
-        alignItems:"center",
-        justifyContent:"center",
-        padding:"4rem"
-    }}>
-        <div style={{
-            width:"100%",
-        }}> 
-            <span style={
-                {
-                    display:"flex",
-                    justifyContent:"flex-start",
-                    alignItems:"center",
-                    gap:"1rem"
-                }
-            }>
-                <span style={{
-                    display:"inline-block",
-                    height:"3px",
-                    width:"60px",
-                    background:"#D71920"
-                }} ></span>
-                <p style={{margin:"0",color:"#D71920"}}>SOLUTIONS</p>
-            </span>
-            <h2 style={{
-                fontWeight:"bold",
-            }}>
-                {title}
-            </h2>
-        </div>
-        <div style={{
-            display:"flex",
-            flexWrap:"wrap",
-            gap:"2rem",
-            justifyContent:"flex-start",
-            alignItems:"center",
-        }}>
-            {
-                products.map((product)=>{
-                    return(
-                        <div class="product-box-bblestds" >
-                            <img style={{
-                            height:"80%",
-                            aspectRatio:"7/10",
-                        }} src={product.image} alt={product.name}/>
-                            <h5 style={{
-                fontWeight:"bold",
-            }}>{product.name}</h5>
-                            <a class="product-button-bblestds"  href={product.link}>View Details</a>
-                         
-                        </div>
-                    )
-                })
-            }
-        </div>
-    </section>
-    <section style={{
-        display:"flex",
-        flexDirection:"column",
-        alignItems:"center",
-        justifyContent:"center",
-        gap:"4rem",
-        padding:"4rem"
-    }}>
-            <h1 style={{
-                fontWeight:"bold",
-            }}>Other Category Ranges</h1>
-            <div style={{
-                display:"flex",
-                flexWrap:"wrap",
-                gap:"2rem",
-                justifyContent:"center",
-                alignItems:"center",
-            }}>
-                {
-                    otherCategories.map((category)=>{
-                        return(
-                            <a style={{
-                                display:"flex",
-                                flexDirection:"column",
-                                alignItems:"center",
-                                justifyContent:"center",
-                                gap:"3rem",
-                                textDecoration:"none",
-                                color:"#17479E",
-                                position:"relative",
-                                padding:"1rem",
-                            }}>
-                                <img src={category.image} alt={category.name}/>
-                                <h5 style={{
-                fontWeight:"bold",
-            }}>{category.name}</h5>
-                                
-                            </a>
-                        )
-                    })
-                }
+  <div
+    class=""
+    style={{
+      backgroundImage: `url(${headerBG})`,
+      height: "400px",
+      width: "100%",
+    }}
+  >
+  </div>
+  <section
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      justifyContent: "center",
+      padding: "4rem",
+    }}
+  >
+    <div
+      style={{
+        width: "100%",
+      }}
+    >
+      <span
+        style={{
+          display: "flex",
+          justifyContent: "flex-start",
+          alignItems: "center",
+          gap: "1rem",
+        }}
+      >
+        <span
+          style={{
+            display: "inline-block",
+            height: "3px",
+            width: "60px",
+            background: "#D71920",
+          }}></span>
+        <p style={{ margin: "0", color: "#D71920" }}>SOLUTIONS</p>
+      </span>
+      <h2
+        style={{
+          fontWeight: "bold",
+        }}
+      >
+        {title}
+      </h2>
+    </div>
+    <div
+      style={{
+        display: "flex",
+        flexWrap: "wrap",
+        gap: "2rem",
+        justifyContent: "flex-start",
+        alignItems: "center",
+      }}
+    >
+      {
+        products.map((product) => {
+          return (
+            <div class="product-box-bblestds">
+              <img
+                style={{
+                  height: "80%",
+                  aspectRatio: "7/10",
+                }}
+                src={product.image}
+                alt={product.name}
+              />
+              <h5
+                style={{
+                  fontWeight: "bold",
+                }}
+              >
+                {product.name}
+              </h5>
+              <a class="product-button-bblestds" href={product.link}>
+                View Details
+              </a>
             </div>
-    </section>
-    <section>
-        <DownloadProductCatalogueCard hasButton={true} image="/images/tile-adhesive/Rectangle522.png" title="Download Product Catalogue" buttonText="Download" buttonLink="/download"  />
-    </section>
+          );
+        })
+      }
+    </div>
+  </section>
+  <section
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      justifyContent: "center",
+      gap: "4rem",
+      padding: "4rem",
+    }}
+  >
+    <h1
+      style={{
+        fontWeight: "bold",
+      }}
+    >
+      Other Category Ranges
+    </h1>
+    <div
+      style={{
+        display: "flex",
+        flexWrap: "wrap",
+        gap: "2rem",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      {
+        otherCategories.map((category) => {
+          return (
+            <a
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                justifyContent: "center",
+                gap: "3rem",
+                textDecoration: "none",
+                color: "#17479E",
+                position: "relative",
+                padding: "1rem",
+              }}
+            >
+              <img src={category.image} alt={category.name} />
+              <h5
+                style={{
+                  fontWeight: "bold",
+                }}
+              >
+                {category.name}
+              </h5>
+            </a>
+          );
+        })
+      }
+    </div>
+  </section>
+  <section>
+    <DownloadProductCatalogueCard
+      hasButton={true}
+      image="/images/tile-adhesive/Rectangle522.png"
+      title="Download Product Catalogue"
+      buttonText="Download"
+      buttonLink="/download"
+    />
+  </section>
 </main>
 
 <style>
-    .product-box-bblestds{
-        height:500px ;
-        display:flex;
-        flex-direction:column;
-        align-items:center;
-        justify-content:center;
-        padding :1rem 1.5rem;
-        gap:1rem;
-        background:linear-gradient(180deg, #21336804 , #21336826);
-        border-radius:2rem;
-        position :relative;
-        color:#17479E;
-        overflow: hidden;
-        cursor: pointer;
-        transition: all 0.3s ease-in-out;
-    }
-    .product-box-bblestds::after{
-        content:"";
-        position:absolute;
-        top:0;
-        opacity: 0;
-        left:0;
-        height:100%;
-        width:100%;
-        background:linear-gradient(180deg, #21336826 , #21336899);
-        z-index:2;
-        transition: all 0.3s ease-in-out;
-    }
-    .product-box-bblestds:hover::after{
-        top:0;
-        opacity: 1;
-        left:0;
-    }
-    .product-box-bblestds:hover h5{
-        transition: all 0.3s ease-in-out;
-        color:white;
-        z-index: 4;
-        transform: translateY(-7rem);
-    }
-    
-    .product-button-bblestds{
-        transition: all 0.3s ease-in-out;
-        position:absolute;
-        bottom:-4rem;
-        padding:0.5rem 2rem;
-        border:#17479E;
-        background:white;
-        border-radius:2rem;
-    }
-    .product-button-bblestds:hover{
-        transition: all 0.3s ease-in-out;
-        background:#17479E;
-        color:white;
-    }
-    .product-box-bblestds:hover .product-button-bblestds{
-        bottom:6rem;
-        z-index: 4;
-    }
+  .product-box-bblestds {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1.5rem;
+    gap: 1rem;
+    background: linear-gradient(180deg, #21336804, #21336826);
+    border-radius: 2rem;
+    position: relative;
+    color: #17479e;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  .product-box-bblestds::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, #21336826, #21336899);
+    z-index: 2;
+    transition: all 0.3s ease-in-out;
+  }
+  .product-box-bblestds:hover::after {
+    top: 0;
+    opacity: 1;
+    left: 0;
+  }
+  .product-box-bblestds:hover h5 {
+    transition: all 0.3s ease-in-out;
+    color: white;
+    z-index: 4;
+    transform: translateY(-7rem);
+  }
+
+  .product-button-bblestds {
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    bottom: -4rem;
+    padding: 0.5rem 2rem;
+    border: #17479e;
+    background: white;
+    border-radius: 2rem;
+  }
+  .product-button-bblestds:hover {
+    transition: all 0.3s ease-in-out;
+    background: #17479e;
+    color: white;
+  }
+  .product-box-bblestds:hover .product-button-bblestds {
+    bottom: 6rem;
+    z-index: 4;
+  }
 </style>
