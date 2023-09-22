@@ -1,0 +1,35 @@
+---
+import Category from "../../components/Category.astro";
+import MainLayout from "../../layouts/MainLayout.astro";
+import waterproofingProducts from "../../content/waterproofing-cc";
+
+let Title = "Waterproofing";
+let Image = "/images/tile-adhesive/Rectangle526.png";
+let products = waterproofingProducts.map((product) => ({
+  name: product.name,
+  image: product.image,
+  link: `/waterproofing-cc/${product.slug}`,
+}));
+
+let otherCategories = [
+  {
+    name: "MORTAR",
+    image: "/images/tile-adhesive/BLOCK GRIP ADHESIVE_Image.png",
+    link: "/mortar-cc",
+  },
+  {
+    name: "WATERPROOFING",
+    image: "/images/tile-adhesive/BLOCK GRIP ADHESIVE_Image-1.png",
+    link: "/waterproofing-cc",
+  },
+  {
+    name: "PRECISION STEEL GROUTS",
+    image: "/images/tile-adhesive/BLOCK GRIP ADHESIVE_Image-2.png",
+    link: "/precision-steel-grouts-cc",
+  },
+];
+---
+
+<MainLayout>
+  <Category headerBG={Image} title={Title} {products} {otherCategories} />
+</MainLayout>

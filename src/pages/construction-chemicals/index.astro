@@ -42,37 +42,43 @@ const sliderImages = [
   <CategorySection
     title="Tile Adhesive, Grout & Cleaner"
     description="Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis."
-    features={new Array(4)
-      .fill(null)
-      .map((it) => "Lorem ipsum dolor sit amet consectetur")}
+    features={[
+      "JSW TYLFIX TYPE 1",
+      "JSW TYLFIX TYPE 2",
+      "JSW TYLFIX TYPE 3",
+      "JSW TYLFIX TYPE 4",
+      "JSW TYLFIX TYPE GROUT CEMENTITIOUS",
+      "TYLFIX CLEANER",
+    ]}
     image="/images/construction-chemicals/jsw-slider-img1.jpg"
   />
   <CategorySection
     direction="rtl"
     bg="light"
-    title="Tile Adhesive, Grout & Cleaner"
+    title="Precision Steel Grouts"
     description="Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis."
-    features={new Array(4)
-      .fill(null)
-      .map((it) => "Lorem ipsum dolor sit amet consectetur")}
+    features={["SG1 FLOWABLE", "SG2 FLOWABLE", "SG3 FLOWABLE"]}
     image="/images/construction-chemicals/jsw-slider-img1.jpg"
   />
   <CategorySection
-    title="Tile Adhesive, Grout & Cleaner"
+    title="Mortar"
     description="Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis."
-    features={new Array(4)
-      .fill(null)
-      .map((it) => "Lorem ipsum dolor sit amet consectetur")}
+    features={["JSW ENDURO PLAST", "BLOCK GRIP ADHESIVE"]}
     image="/images/construction-chemicals/jsw-slider-img1.jpg"
   />
   <CategorySection
     direction="rtl"
     bg="light"
-    title="Tile Adhesive, Grout & Cleaner"
+    title="Waterproofing"
     description="Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis."
-    features={new Array(4)
-      .fill(null)
-      .map((it) => "Lorem ipsum dolor sit amet consectetur")}
+    features={[
+      "SMARTBLOK IWC+200",
+      "SMARTBLOK SBR ULTRA",
+      "SMARTBLOK SBR ULTRA PLUS",
+      "SMARTBLOK UNIVERSAL POLYMER",
+      "SMARTBLOK CEM 2K ULTRA",
+      "SMARTBLOK CEM 2K ULTRA PLUS",
+    ]}
     image="/images/construction-chemicals/jsw-slider-img1.jpg"
   />
   <SectionLayout className="my-5">
@@ -88,16 +94,16 @@ const sliderImages = [
 
 <script is:inline>
 $(document).ready(function () {
-    $(".hero-slider").slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true,
-        speed: 500,
-        fade: true,
-        cssEase: "linear",
-        adaptiveHeight: true,
-        autoplay: true,
-        autoplaySpeed: 5000,
-    });
+  $(".hero-slider").slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    infinite: true,
+    speed: 500,
+    fade: true,
+    cssEase: "linear",
+    adaptiveHeight: true,
+    autoplay: true,
+    autoplaySpeed: 5000,
+  });
 });
 </script>
