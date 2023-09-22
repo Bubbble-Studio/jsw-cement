@@ -25,9 +25,9 @@ const data = [
     ],
     relatedProducts: [
       {
-        title: "JSW TYLFIX TYPE 2",
-        image: "/images/tile-adhesive/JSW TYLFIX TYPE 2.png",
-        link: "/tile-adhesive-grout-cleaner-cc/jsw-tylfix-type-2",
+        title: "BLOCK GRIP ADHESIVE",
+        image: "/images/tile-adhesive/JSW-BLOCK-GRIP-ADHESIVE.png",
+        link: "/tile-adhesive-grout-cleaner-cc/block-grip-adhesive",
       },
     ],
     specificationsTable: [
@@ -61,11 +61,15 @@ const data = [
     title: "BLOCK GRIP ADHESIVE",
     subTitle: "EXCELLENT ADHESIVE FOR CURED BLOCKS",
     slug: "block-grip-adhesive",
-    image: "/images/mortar/JSW-BLOW_GRIP-ADHESIVE.png",
+    image: "/images/mortar/JSW-BLOW-GRIP-ADHESIVE.png",
     category: "mortar",
     description:
       "It's a single-component thixotropic thin-bed fixing and jointing block grip adhesive. It contains an aggregate ratio of graded inert sand with cement and polymers for applications as a bond-gripping material in civil construction works. It is recommended for fixing and jointing AAC blocks, ALC blocks, Cement mortar blocks, Cellular concrete blocks, Fly ash bricks and Composite cement blocks.",
-    features: ["For Ceillings", "For Walls"],
+    features: [
+      "Cohesive and Workable Adhesive",
+      "Self-Cured",
+      "Shock & Impact Resistant",
+    ],
     packages: ["40 kg"],
     benefits: [
       "Cohesive & workable mortar",
@@ -80,35 +84,40 @@ const data = [
     ],
     relatedProducts: [
       {
-        title: "JSW TYLFIX TYPE 2",
-        image: "/images/tile-adhesive/JSW TYLFIX TYPE 2.png",
-        link: "/tile-adhesive-grout-cleaner-cc/jsw-tylfix-type-2",
+        title: "ENDURO PLAST",
+        image: "/images/tile-adhesive/JSW-ENDURA-PLAST.png",
+        link: "/mortar-cc/jsw-endura-plast",
       },
     ],
     specificationsTable: [
       {
         property: "Pot life at 30°C min",
-        result: "90-120",
+        result: "120 minutes",
       },
       {
-        property: "Compressive strength at 28 days, Mpa",
-        result: "6-8",
+        property: "Compressive strength @ 28 days, Mpa",
+        result: "8-10 Mpa after 28 days",
       },
       {
         property: "Tensile Strength at 28 dasy, Mpa",
-        result: "Min.1.0",
+        result:
+          "0.45 to 0.6 Mpa for 3 mm-6 mm @ 28 days valid for 90% transfre",
       },
       {
-        property: "Flexural Strength at 28 days, Mpa",
-        result: "Min.1.5",
+        property: "Fresh wet density (gm/cc)",
+        result: "1.65-1.75 gm/cc",
       },
       {
-        property: "Water Absorption%",
-        result: "Max 5",
+        property: "Bulk Density",
+        result: "1.15-1.25 gm/cc",
       },
       {
-        property: "Rebound Loss%",
-        result: "Max 2",
+        property: "pH of mix",
+        result: "10-12",
+      },
+      {
+        property: "Workability of mix (hours)",
+        result: "Approx. 2hrs-3hrs",
       },
     ],
   },
