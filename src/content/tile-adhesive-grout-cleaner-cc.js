@@ -333,7 +333,7 @@ const data = [
     category: "tile-adhesive-grout-cleaner",
     description:
       "JSW Tylfix Grout is a polymer-modified, cement-based tile joint filler grouting material, which is highly suitable for filling the joints/gap of all types of tiles. It exhibits water- resistant properties, making it an ideal choice for various applications.",
-    features: ["Non Shrink", "Crack Free", "Easily Pouralble"],
+    features: ["Non Shrink", "Crack Free", "Easily Pourable"],
     packages: ["20 kg"],
     benefits: [
       "Easy to use & Clean: just mix with water, ready to use",
