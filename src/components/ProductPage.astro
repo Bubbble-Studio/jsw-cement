@@ -7,7 +7,7 @@ import SectionLayout from "../layouts/SectionLayout.astro";
 import AnchorButton from "./AnchorButton.astro";
 import DownloadIcon from "./DownloadIcon.astro";
 
-const { data } = Astro.props;
+const { data, bannerImg } = Astro.props;
 const {
   title,
   description,
@@ -24,7 +24,9 @@ const {
 
 <MainLayout>
   <div
-    style="height: 400px; background-image: url(/images/construction-chemicals/produdct-header.jpg)"
+    style={`height: 400px; width: 100%; background-size: cover; background-image: url(${
+      bannerImg || "/images/construction-chemicals/produdct-header.jpg"
+    })`}
   >
   </div>
   <SectionLayout
