@@ -5,7 +5,7 @@ const data = [
       "INTEGRAL WATERPROOFING COMPOUND SUITABLE FOR ALL TYPES OF CONCRETE & MORTAR",
     slug: "smartblok-iwc-200",
     image: "/images/waterproofing/JSW-SMARTBLOK-IWC-200.png",
-    category: "mortar",
+    category: "waterproofing",
     description:
       "JSW Smart Blok IWC+ 200 is an Integral liquid waterproofing compound composed of surface active plasticizers, polymers and additives. It reduces the water demand (6-8% reduction) with the required work-ability in mortar and concrete.",
     features: [
@@ -76,6 +76,7 @@ const data = [
     subTitle:
       "ECO FRIENDLY MULTIPURPOSE SBR POLYMER FOR WATER PROOFING & REPAIR",
     slug: "smartblok-sbr-ultra",
+    category: "waterproofing",
     image: "/images/waterproofing/JSW-SMARTBLOK-SBR-ULTRA.png",
     category: "waterproofing",
     description:
@@ -123,6 +124,8 @@ const data = [
   },
   {
     title: "SMARTBLOK SBR ULTRA PLUS",
+    slug: "smartblok-sbr-ultra-plus",
+    category: "waterproofing",
     subTitle:
       "ECO-FRIENDLY MULTIPURPOSE HIGH PERFORMANCE SBR POLYMER FOR WATER PROOFING & REPAIR",
     description:
@@ -171,6 +174,8 @@ const data = [
   },
   {
     title: "SMARTBLOK UNIVERSAL POLYMER",
+    slug: "smartblok-universal-polymer",
+    category: "waterproofing",
     subTitle:
       "WEATHERPROOF HIGH PERFORMANCE ACRYLIC POLYMER FOR WATERPROOFING & REPAIR APPLICATION",
     description:
@@ -215,6 +220,8 @@ const data = [
   },
   {
     title: "SMARTBLOK CEM 2K ULTRA",
+    slug: "smartblok-cem-2k-ultra",
+    category: "waterproofing",
     subTitle: "High Performance Acrylic Cementitious Waterproofing Coating",
     description:
       "JSW SmartBlok Acrycem 2K is a two-component water proofing product, based on acrylic and cementitious materials. It forms an excellent flexible film coating on the concrete and mortar substrate, that provides superior water proofing.",
@@ -260,6 +267,8 @@ const data = [
   },
   {
     title: "SMARTBLOK CEM 2K ULTRA PLUS",
+    slug: "smartblok-cem-2k-ultra-plus",
+    category: "waterproofing",
     subTitle: "Superior Performance Acrylic Cementitious Waterproofing Coating",
     description:
       "JSW SmartBlok Cem 2K Ultra Plus is a modified polymer and cementitious hybrid Superior performance, ultra- flexible two-part water proofing coat.",

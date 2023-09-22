@@ -1,10 +1,10 @@
 ---
 import type { GetStaticPaths } from "astro";
-import mortar from "../../../content/mortar-cc";
+import waterproofing from "../../../content/waterproofing-cc";
 import ProductPage from "../../../components/ProductPage.astro";
 
 export const getStaticPaths = (() => {
-  const allPages = mortar;
+  const allPages = waterproofing;
   const paths = allPages.map((page) => ({
     params: { product: page.slug },
     props: { data: page },
