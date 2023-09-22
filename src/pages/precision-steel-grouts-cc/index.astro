@@ -1,26 +1,15 @@
 ---
 import Category from "../../components/Category.astro";
 import MainLayout from "../../layouts/MainLayout.astro";
+import steelGroutPages from "../../content/steel-grouts-cc";
 
-let Title = "Tile Adhesive, Grout & Cleaner";
+let Title = "Precision Steel Grouts";
 let Image = "/images/tile-adhesive/Rectangle526.png";
-let products = [
-  {
-    name: "SG 1 FLOWABLE",
-    image: "/images/steel-grouts/SG-1-FLOWABLE.png",
-    link: "/steel-grouts-cc/sg-1-flowable",
-  },
-  {
-    name: "SG 2 FLOWABLE",
-    image: "/images/steel-grouts/SG-2-FLOWABLE.png",
-    link: "/steel-grouts-cc/sg-2-flowable",
-  },
-  {
-    name:"SG 3 FLOWABLE",
-    image: "/images/steel-grouts/SG-3-FLOWABLE.png",
-    link: "/steel-grouts-cc/sg-3-flowable",
-  }
-];
+let products = steelGroutPages.map((product) => ({
+  name: product.title,
+  image: product.image,
+  link: `/precision-steel-grouts-cc/${product.slug}`,
+}));
 let otherCategories = [
   {
     name: "MORTAR",
