@@ -42,6 +42,11 @@ export const FEATURE_ICONS = {
     "/images/construction-chemicals/performance-modifier.png",
   "Portland and all type of Blended Cement compatible":
     "/images/construction-chemicals/portland-and-all-type-of-blended-cement-compatible.png",
+  "Cohesive and Workable Adhesive":
+    "/images/construction-chemicals/cohesive-and-workable-adhesive.png",
+  "Self-Cured": "/images/construction-chemicals/self-cured.png",
+  "Shock & Impact Resistant":
+    "/images/construction-chemicals/shock-&-impact-resistant.png",
 };
 
 export const CATEGORIES = {
