@@ -22,7 +22,23 @@ const data = [
       "Durability: Improves durability due to reduction in permeability in concrete (by improving cohesiveness in concrete) and hence protects steel against corrosion in a better way.",
       "Shrinkage: Reduces shrinkage crack development in plaster and concrete.",
     ],
-    relatedProducts: [],
+    relatedProducts: [
+      {
+        title: "SMARTBLOK SBR ULTRA",
+        link: "/waterproofing-cc/smartblok-sbr-ultra",
+        image: "/images/waterproofing/SMARTBLOK SBR ULTRA.png",
+      },
+      {
+        title: "SMARTBLOK SBR ULTRA PLUS",
+        link: "/waterproofing-cc/smartblok-sbr-ultra-plus",
+        image: "/images/waterproofing/SMARTBLOK SBR ULTRA PLUS.png",
+      },
+      {
+        title: "SMARTBLOK UNIVERSAL POLYMER",
+        link: "/waterproofing-cc/smartblok-universal-polymer",
+        image: "/images/waterproofing/SMARTBLOK UNIVERSAL POLYMER.png",
+      },
+    ],
     specificationsTable: [
       {
         property: "Appearence",
@@ -94,7 +110,23 @@ const data = [
       "Bonding: It provides improved bonding for concrete, mortar, for new construction as well as repair works.",
       "Erosion & Corrosion:ThereducesErosionandCorrosion.",
     ],
-    relatedProducts: [],
+    relatedProducts: [
+      {
+        title: "SMARTBLOK SBR ULTRA PLUS",
+        link: "/waterproofing-cc/smartblok-sbr-ultra-plus",
+        image: "/images/waterproofing/SMARTBLOK SBR ULTRA PLUS.png",
+      },
+      {
+        title: "SMARTBLOK UNIVERSAL POLYMER",
+        link: "/waterproofing-cc/smartblok-universal-polymer",
+        image: "/images/waterproofing/SMARTBLOK UNIVERSAL POLYMER.png",
+      },
+      {
+        title: "SMARTBLOK CEM 2K ULTRA",
+        link: "/waterproofing-cc/smartblok-cem-2k-ultra",
+        image: "/images/waterproofing/SMARTBLOK CEM 2K ULTRA.png",
+      },
+    ],
     specificationsTable: [
       {
         property: "Nature/Appearence",
@@ -145,7 +177,23 @@ const data = [
       "Erosion&Corrosion: ThereducesErosionandCorrosion.",
       "Eco-Friendly: Made using natural materials & ingredients",
     ],
-    relatedProducts: [],
+    relatedProducts: [
+      {
+        title: "SMARTBLOK SBR ULTRA",
+        link: "/waterproofing-cc/smartblok-sbr-ultra",
+        image: "/images/waterproofing/SMARTBLOK SBR ULTRA.png",
+      },
+      {
+        title: "SMARTBLOK UNIVERSAL POLYMER",
+        link: "/waterproofing-cc/smartblok-universal-polymer",
+        image: "/images/waterproofing/SMARTBLOK UNIVERSAL POLYMER.png",
+      },
+      {
+        title: "SMARTBLOK CEM 2K ULTRA",
+        link: "/waterproofing-cc/smartblok-cem-2k-ultra",
+        image: "/images/waterproofing/SMARTBLOK CEM 2K ULTRA.png",
+      },
+    ],
     specificationsTable: [
       {
         property: "Nature/Appearence",
@@ -196,7 +244,23 @@ const data = [
       "Erosion & Corrosion: This reduces erosion and corrosion.",
       "Flexible Coating: This provides a flexible coating for exterior and interior application",
     ],
-    relatedProducts: [],
+    relatedProducts: [
+      {
+        title: "SMARTBLOK SBR ULTRA",
+        link: "/waterproofing-cc/smartblok-sbr-ultra",
+        image: "/images/waterproofing/SMARTBLOK SBR ULTRA.png",
+      },
+      {
+        title: "SMARTBLOK SBR ULTRA PLUS",
+        link: "/waterproofing-cc/smartblok-sbr-ultra-plus",
+        image: "/images/waterproofing/SMARTBLOK SBR ULTRA PLUS.png",
+      },
+      {
+        title: "SMARTBLOK CEM 2K ULTRA",
+        link: "/waterproofing-cc/smartblok-cem-2k-ultra",
+        image: "/images/waterproofing/SMARTBLOK CEM 2K ULTRA.png",
+      },
+    ],
     specificationsTable: [
       {
         property: "Nature/Appearence",
@@ -240,7 +304,23 @@ const data = [
       "Adhesion: It exhibits superior adhesion to concrete and masonry surfaces.",
       "Eco-Friendly: It is composed of eco-friendly materials with low VOC.",
     ],
-    relatedProducts: [],
+    relatedProducts: [
+      {
+        title: "SMARTBLOK SBR ULTRA",
+        link: "/waterproofing-cc/smartblok-sbr-ultra",
+        image: "/images/waterproofing/SMARTBLOK SBR ULTRA.png",
+      },
+      {
+        title: "SMARTBLOK SBR ULTRA PLUS",
+        link: "/waterproofing-cc/smartblok-sbr-ultra-plus",
+        image: "/images/waterproofing/SMARTBLOK SBR ULTRA PLUS.png",
+      },
+      {
+        title: "SMARTBLOK UNIVERSAL POLYMER",
+        link: "/waterproofing-cc/smartblok-universal-polymer",
+        image: "/images/waterproofing/SMARTBLOK UNIVERSAL POLYMER.png",
+      },
+    ],
     specificationsTable: [
       {
         property: "Nature/Appearence",
@@ -288,7 +368,23 @@ const data = [
       "Adhesion: It exhibits excellent adhesion on old/new concrete, mortar and other masonry surfaces.",
       "Eco-friendly: It is composed of eco-friendly materials with low VOC. This makes it application-friendly and eco- friendly.",
     ],
-    relatedProducts: [],
+    relatedProducts: [
+      {
+        title: "SMARTBLOK SBR ULTRA",
+        link: "/waterproofing-cc/smartblok-sbr-ultra",
+        image: "/images/waterproofing/SMARTBLOK SBR ULTRA.png",
+      },
+      {
+        title: "SMARTBLOK SBR ULTRA PLUS",
+        link: "/waterproofing-cc/smartblok-sbr-ultra-plus",
+        image: "/images/waterproofing/SMARTBLOK SBR ULTRA PLUS.png",
+      },
+      {
+        title: "SMARTBLOK UNIVERSAL POLYMER",
+        link: "/waterproofing-cc/smartblok-universal-polymer",
+        image: "/images/waterproofing/SMARTBLOK UNIVERSAL POLYMER.png",
+      },
+    ],
     specificationsTable: [
       {
         property: "Nature/Appearence",

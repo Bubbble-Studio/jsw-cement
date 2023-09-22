@@ -3,7 +3,7 @@ const data = [
     title: "ENDURO PLAST",
     subTitle: "READY MIX PLASTER",
     slug: "enduro-plast",
-    image: "/images/mortar/ENDURO PLAST.jpg",
+    image: "/images/mortar/ENDURO-PLAST.jpg",
     category: "mortar",
     description:
       "Single component rendering mortar with a ratio of graded inert sand with cement and polymers for applications in civil construction works.",
@@ -26,8 +26,8 @@ const data = [
     relatedProducts: [
       {
         title: "BLOCK GRIP ADHESIVE",
-        image: "/images/tile-adhesive/JSW-BLOCK-GRIP-ADHESIVE.png",
-        link: "/tile-adhesive-grout-cleaner-cc/block-grip-adhesive",
+        image: "/images/mortar/BLOCK-GRIP-ADHESIVE.jpg",
+        link: "/mortar-cc/block-grip-adhesive",
       },
     ],
     specificationsTable: [
@@ -61,7 +61,7 @@ const data = [
     title: "BLOCK GRIP ADHESIVE",
     subTitle: "EXCELLENT ADHESIVE FOR CURED BLOCKS",
     slug: "block-grip-adhesive",
-    image: "/images/mortar/BLOCK GRIP ADHESIVE.jpg",
+    image: "/images/mortar/BLOCK-GRIP-ADHESIVE.jpg",
     category: "mortar",
     description:
       "It's a single-component thixotropic thin-bed fixing and jointing block grip adhesive. It contains an aggregate ratio of graded inert sand with cement and polymers for applications as a bond-gripping material in civil construction works. It is recommended for fixing and jointing AAC blocks, ALC blocks, Cement mortar blocks, Cellular concrete blocks, Fly ash bricks and Composite cement blocks.",
@@ -85,8 +85,8 @@ const data = [
     relatedProducts: [
       {
         title: "ENDURO PLAST",
-        image: "/images/tile-adhesive/JSW-ENDURA-PLAST.png",
-        link: "/mortar-cc/jsw-endura-plast",
+        image: "/images/mortar/ENDURO-PLAST.jpg",
+        link: "/mortar-cc/enduro-plast",
       },
     ],
     specificationsTable: [
@@ -101,7 +101,7 @@ const data = [
       {
         property: "Tensile Strength at 28 dasy, Mpa",
         result:
-          "0.45 to 0.6 Mpa for 3 mm-6 mm @ 28 days valid for 90% transfre",
+          "0.45 to 0.6 Mpa for 3 mm-6 mm @ 28 days valid for 90% transfer",
       },
       {
         property: "Fresh wet density (gm/cc)",

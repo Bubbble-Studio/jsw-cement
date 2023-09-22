@@ -21,18 +21,18 @@ const data = [
     ],
     relatedProducts: [
       {
-        title: "JSW TYLFIX TYPE 2",
-        image: "/images/tile-adhesive/JSW TYLFIX TYPE 2.png",
+        title: "JSW-TYLFIX-TYPE-2",
+        image: "/images/tile-adhesive/JSW-TYLFIX-TYPE-2.png",
         link: "/tile-adhesive-grout-cleaner-cc/jsw-tylfix-type-2",
       },
       {
-        title: "JSW TYLFIX TYPE 3",
-        image: "/images/tile-adhesive/JSW TYLFIX TYPE 3.png",
+        title: "JSW-TYLFIX-TYPE-3",
+        image: "/images/tile-adhesive/JSW-TYLFIX-TYPE-3.png",
         link: "/tile-adhesive-grout-cleaner-cc/jsw-tylfix-type-2",
       },
       {
-        title: "JSW TYLFIX TYPE 4",
-        image: "/images/tile-adhesive/JSW TYLFIX TYPE 4.png",
+        title: "JSW-TYLFIX-TYPE-4",
+        image: "/images/tile-adhesive/JSW-TYLFIX-TYPE-4.png",
         link: "/tile-adhesive-grout-cleaner-cc/jsw-tylfix-type-4",
       },
     ],
@@ -93,18 +93,18 @@ const data = [
     ],
     relatedProducts: [
       {
-        title: "JSW TYLFIX TYPE 1",
-        image: "/images/tile-adhesive/JSW TYLFIX  TYPE 1.png",
+        title: "JSW-TYLFIX-TYPE-1",
+        image: "/images/tile-adhesive/JSW-TYLFIX-TYPE-1.png",
         link: "/tile-adhesive-grout-cleaner-cc/jsw-tylfix-type-1",
       },
       {
-        title: "JSW TYLFIX TYPE 3",
-        image: "/images/tile-adhesive/JSW TYLFIX TYPE 3.png",
+        title: "JSW-TYLFIX-TYPE-3",
+        image: "/images/tile-adhesive/JSW-TYLFIX-TYPE-3.png",
         link: "/tile-adhesive-grout-cleaner-cc/jsw-tylfix-type-3",
       },
       {
-        title: "JSW TYLFIX TYPE 4",
-        image: "/images/tile-adhesive/JSW TYLFIX TYPE 4.png",
+        title: "JSW-TYLFIX-TYPE-4",
+        image: "/images/tile-adhesive/JSW-TYLFIX-TYPE-4.png",
         link: "/tile-adhesive-grout-cleaner-cc/jsw-tylfix-type-4",
       },
     ],
@@ -165,18 +165,18 @@ const data = [
     ],
     relatedProducts: [
       {
-        title: "JSW TYLFIX TYPE 1",
-        image: "/images/tile-adhesive/JSW TYLFIX  TYPE 1.png",
+        title: "JSW-TYLFIX-TYPE-1",
+        image: "/images/tile-adhesive/JSW-TYLFIX-TYPE-1.png",
         link: "/tile-adhesive-grout-cleaner-cc/jsw-tylfix-type-1",
       },
       {
-        title: "JSW TYLFIX TYPE 3",
-        image: "/images/tile-adhesive/JSW TYLFIX TYPE 3.png",
+        title: "JSW-TYLFIX-TYPE-3",
+        image: "/images/tile-adhesive/JSW-TYLFIX-TYPE-3.png",
         link: "/tile-adhesive-grout-cleaner-cc/jsw-tylfix-type-3",
       },
       {
-        title: "JSW TYLFIX TYPE 4",
-        image: "/images/tile-adhesive/JSW TYLFIX TYPE 4.png",
+        title: "JSW-TYLFIX-TYPE-4",
+        image: "/images/tile-adhesive/JSW-TYLFIX-TYPE-4.png",
         link: "/tile-adhesive-grout-cleaner-cc/jsw-tylfix-type-4",
       },
     ],

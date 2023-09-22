@@ -2,7 +2,7 @@
 import tileAdhesive from "../content/tile-adhesive-grout-cleaner-cc";
 import MainLayout from "../layouts/MainLayout.astro";
 import CheckIcon from "./CheckIcon.astro";
-import { JSW_COLORS, FEATURE_ICONS, CATEGORIES } from "../utils/constants";
+import { JSW_COLORS, FEATURE_ICONS, CATEGORIES, } from "../utils/constants";
 import SectionLayout from "../layouts/SectionLayout.astro";
 import AnchorButton from "./AnchorButton.astro";
 import DownloadIcon from "./DownloadIcon.astro";
@@ -19,6 +19,7 @@ const {
   category,
   relatedProducts,
 } = data;
+
 ---
 
 <MainLayout>
@@ -157,15 +158,21 @@ const {
               position: "relative",
               padding: "1rem",
               cursor: "pointer",
+              maxWidth: "300px",
             }}
             class="d-flex flex-column align-items-center justify-content-center"
           >
             <img
               src={product.image}
               alt={product.title}
-              style="max-width:100%"
+              style={{
+                maxWidth: "300px",
+                height: "400px",
+                objectFit:"contain"
+              }}
+              
             />
-            <p style="font-size: 1.5rem;" class="fw-bold mt-4">
+            <p style="font-size: 1.5rem; text-align:center;" class="fw-bold mt-4">
               {product.title}
             </p>
           </a>
