@@ -76,26 +76,29 @@ let { headerBG, title, products, otherCategories } = Astro.props;
     {
       otherCategories.map((category) => {
         return (
-          <a
-            href={category.link}
-            style={{
-              textDecoration: "none",
-              color: JSW_COLORS.p2,
-              position: "relative",
-              padding: "1rem",
-              cursor: "pointer",
-            }}
-            class="d-flex flex-column align-items-center justify-content-center"
-          >
-            <img
-              src={category.image}
-              alt={category.name}
-              style="max-width:100%"
-            />
-            <p style="font-size: 1.5rem;" class="fw-bold mt-4">
-              {category.name}
-            </p>
-          </a>
+          <div class="other-cat-card">
+            <a
+              href={category.link}
+              style={{
+                textDecoration: "none",
+                color: JSW_COLORS.p2,
+                position: "relative",
+                padding: "1rem",
+                cursor: "pointer",
+              }}
+              class="flex-1 d-flex flex-column align-items-center justify-content-center w-100 h-100"
+            >
+              <img
+                src={category.image}
+                alt={category.name}
+                style="object-fit: cover;"
+                class="other-cat-card-img w-100 h-100"
+              />
+              <p style="font-size: 1.5rem;" class="fw-bold mt-4">
+                {category.name}
+              </p>
+            </a>
+          </div>
         );
       })
     }
@@ -116,6 +119,16 @@ let { headerBG, title, products, otherCategories } = Astro.props;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
+  }
+  .other-cat-card {
+    overflow: hidden;
+    border-radius: 2rem;
+  }
+  .other-cat-card-img {
+    transition: all 0.3s ease-in-out;
+  }
+  .other-cat-card-img:hover {
+    transform: scale(1.05);
   }
   .product-box-bblestds {
     flex: 1;
@@ -156,6 +169,12 @@ let { headerBG, title, products, otherCategories } = Astro.props;
     color: white;
     z-index: 4;
     transform: translateY(-7rem);
+  }
+  .product-box-bblestds img {
+    transition: all 0.3s ease-in-out;
+  }
+  .product-box-bblestds:hover img {
+    transform: scale(1.05);
   }
 
   .product-button-bblestds {
