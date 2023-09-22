@@ -1,0 +1,45 @@
+---
+import Category from "../../components/Category.astro";
+import MainLayout from "../../layouts/MainLayout.astro";
+
+let Title = "Tile Adhesive, Grout & Cleaner";
+let Image = "/images/tile-adhesive/Rectangle526.png";
+let products = [
+  {
+    name: "SG 1 FLOWABLE",
+    image: "/images/steel-grouts/SG-1-FLOWABLE.png",
+    link: "/steel-grouts-cc/sg-1-flowable",
+  },
+  {
+    name: "SG 2 FLOWABLE",
+    image: "/images/steel-grouts/SG-2-FLOWABLE.png",
+    link: "/steel-grouts-cc/sg-2-flowable",
+  },
+  {
+    name:"SG 3 FLOWABLE",
+    image: "/images/steel-grouts/SG-3-FLOWABLE.png",
+    link: "/steel-grouts-cc/sg-3-flowable",
+  }
+];
+let otherCategories = [
+  {
+    name: "MORTAR",
+    image: "/images/tile-adhesive/BLOCK GRIP ADHESIVE_Image.png",
+    link: "/mortar-cc",
+  },
+  {
+    name: "WATERPROOFING",
+    image: "/images/tile-adhesive/BLOCK GRIP ADHESIVE_Image-1.png",
+    link: "/waterproofing-cc",
+  },
+  {
+    name: "TILE ADHESIVE, GROUT & CLEANER",
+    image: "/images/tile-adhesive/BLOCK GRIP ADHESIVE_Image-2.png",
+    link: "/tile-adhesive-grout-cleaner-cc",
+  },
+];
+---
+
+<MainLayout>
+  <Category headerBG={Image} title={Title} {products} {otherCategories} />
+</MainLayout>
