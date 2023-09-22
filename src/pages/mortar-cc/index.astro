@@ -1,0 +1,34 @@
+---
+import Category from "../../components/Category.astro";
+import MainLayout from "../../layouts/MainLayout.astro";
+import mortarProducts from "../../content/mortar-cc";
+
+let Title = "Mortar";
+let Image = "/images/tile-adhesive/Rectangle526.png";
+let products = mortarProducts.map((product) => ({
+  name: product.title,
+  image: product.image,
+  link: `/mortar-cc/${product.slug}`,
+}));
+let otherCategories = [
+  {
+    name: "MORTAR",
+    image: "/images/tile-adhesive/BLOCK GRIP ADHESIVE_Image.png",
+    link: "/Mortar",
+  },
+  {
+    name: "WATERPROOFING",
+    image: "/images/tile-adhesive/BLOCK GRIP ADHESIVE_Image-1.png",
+    link: "/WATERPROOFING",
+  },
+  {
+    name: "PRECISION STEEL GROUTS",
+    image: "/images/tile-adhesive/BLOCK GRIP ADHESIVE_Image-2.png",
+    link: "/PRECISION STEEL GROUTS",
+  },
+];
+---
+
+<MainLayout>
+  <Category headerBG={Image} title={Title} {products} {otherCategories} />
+</MainLayout>

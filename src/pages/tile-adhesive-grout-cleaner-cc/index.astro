@@ -1,41 +1,15 @@
 ---
 import Category from "../../components/Category.astro";
 import MainLayout from "../../layouts/MainLayout.astro";
+import tileAdhesiveProducts from "../../content/tile-adhesive-grout-cleaner-cc";
 
 let Title = "Tile Adhesive, Grout & Cleaner";
 let Image = "/images/tile-adhesive/Rectangle526.png";
-let products = [
-  {
-    name: "JSW TYLFIX TYPE 1",
-    image: "/images/tile-adhesive/JSW TYLFIX  TYPE 1.png",
-    link: "/tile-adhesive-grout-cleaner-cc/jsw-tylfix-type-1",
-  },
-  {
-    name: "JSW TYLFIX TYPE 2",
-    image: "/images/tile-adhesive/JSW TYLFIX TYPE 2.png",
-    link: "/tile-adhesive-grout-cleaner-cc/jsw-tylfix-type-2",
-  },
-  {
-    name: "JSW TYLFIX TYPE 3",
-    image: "/images/tile-adhesive/JSW TYLFIX TYPE 3.png",
-    link: "/tile-adhesive-grout-cleaner-cc/jsw-tylfix-type-3",
-  },
-  {
-    name: "JSW TYLFIX TYPE 4",
-    image: "/images/tile-adhesive/JSW TYLFIX TYPE 4.png",
-    link: "/tile-adhesive-grout-cleaner-cc/jsw-tylfix-type-4",
-  },
-  {
-    name: "JSW TYLFIX GROUT",
-    image: "/images/tile-adhesive/JSW TYLFIX GROUT - CEMENTITIOUS.png",
-    link: "/tile-adhesive-grout-cleaner-cc/jsw-tylfix-grout",
-  },
-  {
-    name: "JSW TYLFIX CLEANER",
-    image: "/images/tile-adhesive/TYLFIX CLEANER.png",
-    link: "/tile-adhesive-grout-cleaner-cc/TYLFIX CLEANER",
-  },
-];
+let products = tileAdhesiveProducts.map((product) => ({
+  name: product.name,
+  image: product.image,
+  link: `/tile-adhesive-grout-cleaner-cc/${product.slug}`,
+}));
 let otherCategories = [
   {
     name: "MORTAR",
