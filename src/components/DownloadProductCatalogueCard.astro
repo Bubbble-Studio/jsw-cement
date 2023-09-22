@@ -5,7 +5,7 @@ let { title, image, buttonText, buttonLink, hasButton } = Astro.props;
 ---
 
 <div
-  class="download-catalogue-bblstds d-flex flex-column flex-md-row justify-content-center justify-content-md-between align-items-start align-items-md-center"
+  class="download-catalogue-bblstds d-flex flex-column justify-content-center align-items-start"
   style={{
     background: `url(${image})`,
     backgroundSize: "cover",
@@ -20,7 +20,7 @@ let { title, image, buttonText, buttonLink, hasButton } = Astro.props;
     hasButton && (
       <AnchorButton
         style={`background-color:${JSW_COLORS.bg.light}; color: ${JSW_COLORS.text.dark}`}
-        className="mt-4 mt-md-0"
+        className="mt-4"
       >
         {buttonText}
       </AnchorButton>

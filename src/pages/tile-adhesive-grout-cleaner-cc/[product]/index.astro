@@ -9,6 +9,8 @@ import {
   CATEGORIES,
 } from "../../../utils/constants";
 import SectionLayout from "../../../layouts/SectionLayout.astro";
+import AnchorButton from "../../../components/AnchorButton.astro";
+import DownloadIcon from "../../../components/DownloadIcon.astro";
 
 export const getStaticPaths = (() => {
   const allPages = tileAdhesive;
@@ -30,6 +32,7 @@ const {
   specificationsTable,
   features,
   category,
+  relatedProducts,
 } = data;
 ---
 
@@ -126,9 +129,63 @@ const {
           </table>
         </div>
       </div>
+      <div class="d-flex justify-content-start mt-5 py-1">
+        <AnchorButton
+          style={`border-color:${JSW_COLORS.p2} !important; color:${JSW_COLORS.p2}`}
+          className="border"
+        >
+          Technical Data Sheet
+          <DownloadIcon className="ml-3" />
+        </AnchorButton>
+        <AnchorButton
+          style={`border-color:${JSW_COLORS.p2} !important; color:${JSW_COLORS.p2}`}
+          className="border ml-3"
+        >
+          Download Leaflet
+          <DownloadIcon className="ml-3" />
+        </AnchorButton>
+      </div>
     </div>
   </SectionLayout>
 </MainLayout>
+<SectionLayout style="margin-top: 150px; margin-bottom: 50px;">
+  <h1
+    style={{
+      fontWeight: "bold",
+      textAlign: "center",
+    }}
+  >
+    Other Product Ranges
+  </h1>
+  <div class="d-flex flex-wrap justify-content-between align-items-center mt-5">
+    {
+      relatedProducts.map((product) => {
+        return (
+          <a
+            href={product.link}
+            style={{
+              textDecoration: "none",
+              color: JSW_COLORS.p2,
+              position: "relative",
+              padding: "1rem",
+              cursor: "pointer",
+            }}
+            class="d-flex flex-column align-items-center justify-content-center"
+          >
+            <img
+              src={product.image}
+              alt={product.title}
+              style="max-width:100%"
+            />
+            <p style="font-size: 1.5rem;" class="fw-bold mt-4">
+              {product.title}
+            </p>
+          </a>
+        );
+      })
+    }
+  </div>
+</SectionLayout>
 
 <style>
   .image-container {

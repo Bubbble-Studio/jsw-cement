@@ -19,6 +19,23 @@ const data = [
       "Better adhesive bond strength & Bonds to various cement-based substrates.",
       "Self-curing properties.",
     ],
+    relatedProducts: [
+      {
+        title: "JSW TYLFIX TYPE 2",
+        image: "/images/tile-adhesive/JSW TYLFIX TYPE 2.png",
+        link: "/tile-adhesive-grout-cleaner/jsw-tylfix-type-2",
+      },
+      {
+        title: "JSW TYLFIX TYPE 3",
+        image: "/images/tile-adhesive/JSW TYLFIX TYPE 3.png",
+        link: "/tile-adhesive-grout-cleaner/jsw-tylfix-type-2",
+      },
+      {
+        title: "JSW TYLFIX TYPE 4",
+        image: "/images/tile-adhesive/JSW TYLFIX TYPE 4.png",
+        link: "/tile-adhesive-grout-cleaner/jsw-tylfix-type-2",
+      },
+    ],
     specificationsTable: [
       {
         property: "Tentative mixing ration (Powder: Water)",
