@@ -2,52 +2,59 @@
 import Category from "../../components/Category.astro";
 import MainLayout from "../../layouts/MainLayout.astro";
 
-let Title="Tile Adhesive, Grout & Cleaner"
-let Image="/images/tile-adhesive/Rectangle526.png"
-let products=[
-    {
-        name:"JSW TYLFIX TYPE 1",
-        image:"/images/tile-adhesive/JSW TYLFIX  TYPE 1.png",
-        link:"/products/tile-adhesive/jsw-tylfix-type-1"
-    },{
-        name:"JSW TYLFIX TYPE 2",
-        image:"/images/tile-adhesive/JSW TYLFIX TYPE 2.png",
-        link:"/products/tile-adhesive/jsw-tylfix-type-2"
-    },{
-        name:"JSW TYLFIX TYPE 3",
-        image:"/images/tile-adhesive/JSW TYLFIX TYPE 3.png",
-        link:"/products/tile-adhesive/jsw-tylfix-type-3"
-    },{
-        name:"JSW TYLFIX TYPE 4",
-        image:"/images/tile-adhesive/JSW TYLFIX TYPE 4.png",
-        link:"/products/tile-adhesive/jsw-tylfix-type-4"
-    },{
-        name:"JSW TYLFIX GROUT",
-        image:"/images/tile-adhesive/JSW TYLFIX GROUT - CEMENTITIOUS.png",
-        link:"/products/tile-adhesive/jsw-tylfix-grout"
-    },{
-        name:"JSW TYLFIX CLEANER",
-        image:"/images/tile-adhesive/TYLFIX CLEANER.png",
-        link:"/products/tile-adhesive/TYLFIX CLEANER"
-    }
+let Title = "Tile Adhesive, Grout & Cleaner";
+let Image = "/images/tile-adhesive/Rectangle526.png";
+let products = [
+  {
+    name: "JSW TYLFIX TYPE 1",
+    image: "/images/tile-adhesive/JSW TYLFIX  TYPE 1.png",
+    link: "/tile-adhesive-grout-cleaner-cc/jsw-tylfix-type-1",
+  },
+  {
+    name: "JSW TYLFIX TYPE 2",
+    image: "/images/tile-adhesive/JSW TYLFIX TYPE 2.png",
+    link: "/tile-adhesive-grout-cleaner-cc/jsw-tylfix-type-2",
+  },
+  {
+    name: "JSW TYLFIX TYPE 3",
+    image: "/images/tile-adhesive/JSW TYLFIX TYPE 3.png",
+    link: "/tile-adhesive-grout-cleaner-cc/jsw-tylfix-type-3",
+  },
+  {
+    name: "JSW TYLFIX TYPE 4",
+    image: "/images/tile-adhesive/JSW TYLFIX TYPE 4.png",
+    link: "/tile-adhesive-grout-cleaner-cc/jsw-tylfix-type-4",
+  },
+  {
+    name: "JSW TYLFIX GROUT",
+    image: "/images/tile-adhesive/JSW TYLFIX GROUT - CEMENTITIOUS.png",
+    link: "/tile-adhesive-grout-cleaner-cc/jsw-tylfix-grout",
+  },
+  {
+    name: "JSW TYLFIX CLEANER",
+    image: "/images/tile-adhesive/TYLFIX CLEANER.png",
+    link: "/tile-adhesive-grout-cleaner-cc/TYLFIX CLEANER",
+  },
 ];
-let otherCategories=[
-    {
-        name:"MORTAR",
-        image:"/images/tile-adhesive/BLOCK GRIP ADHESIVE_Image.png",
-        link:"/Mortar"
-    },{
-        name:"WATERPROOFING",
-        image:"/images/tile-adhesive/BLOCK GRIP ADHESIVE_Image-1.png",
-        link:"/WATERPROOFING"
-    },{
-        name:"PRECISION STEEL GROUTS",
-        image:"/images/tile-adhesive/BLOCK GRIP ADHESIVE_Image-2.png",
-        link:"/PRECISION STEEL GROUTS"
-    }
-]
+let otherCategories = [
+  {
+    name: "MORTAR",
+    image: "/images/tile-adhesive/BLOCK GRIP ADHESIVE_Image.png",
+    link: "/Mortar",
+  },
+  {
+    name: "WATERPROOFING",
+    image: "/images/tile-adhesive/BLOCK GRIP ADHESIVE_Image-1.png",
+    link: "/WATERPROOFING",
+  },
+  {
+    name: "PRECISION STEEL GROUTS",
+    image: "/images/tile-adhesive/BLOCK GRIP ADHESIVE_Image-2.png",
+    link: "/PRECISION STEEL GROUTS",
+  },
+];
 ---
 
 <MainLayout>
-    <Category headerBG={Image} title={Title} {products} {otherCategories}  />
+  <Category headerBG={Image} title={Title} {products} {otherCategories} />
 </MainLayout>

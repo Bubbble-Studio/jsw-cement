@@ -3,6 +3,8 @@ const data = [
     title: "JSW TYLFIX TYPE 1",
     subTitle: "TILE ADISIVE FOR FLOOR & WALL- CERAMIC TILES",
     slug: "jsw-tylfix-type-1",
+    image: "/images/tile-adhesive/JSW TYLFIX  TYPE 1.png",
+    category: "tile-adhesive-grout-cleaner",
     description:
       "JSW Tylfix Type 1 is a polymer modified cement based powder tile adhesive for fixing all type of ceramic, clay tiles, It is suitable for both vertical and horizontal application. It gives excellent bond on exterior cementitious surfaces like plaster or concrete etc.",
     features: [
@@ -10,6 +12,7 @@ const data = [
       "Water Resistant",
       "Better Adhesive Bond Strength",
     ],
+    packages: ["20 kg"],
     benefits: [
       "Easy to use - Just add water as per recommended W/P ratio on site and ready to use.",
       "Can be used in internal dry areas, for floor as well as wall application.",
