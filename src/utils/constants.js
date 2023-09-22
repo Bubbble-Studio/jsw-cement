@@ -12,6 +12,29 @@ export const JSW_COLORS = {
   },
 };
 
+export const CATEGORY_LIST = [
+  {
+    title: "Tile Adhesive & Grout Cleaner",
+    image: "/images/tile-adhesive/Tile Adesive Type 4_Image.jpg",
+    link: "/tile-adhesive-grout-cleaner-cc",
+  },
+  {
+    title: "Waterproofing",
+    image: "/images/tile-adhesive/BLOCK GRIP ADHESIVE_Image-1.png",
+    link: "/waterproofing-cc",
+  },
+  {
+    title: "Precision Steel Grouts",
+    image: "/images/tile-adhesive/BLOCK GRIP ADHESIVE_Image-2.png",
+    link: "/precision-steel-grouts-cc",
+  },
+  {
+    title: "Mortar",
+    image: "/images/tile-adhesive/BLOCK GRIP ADHESIVE_Image.png",
+    link: "/mortar-cc",
+  },
+];
+
 export const FEATURE_ICONS = {
   "Easy To Use": "/images/construction-chemicals/easy-to-use.png",
   "Water Resistant": "/images/construction-chemicals/water-resistant.png",

@@ -2,6 +2,7 @@
 import Category from "../../components/Category.astro";
 import MainLayout from "../../layouts/MainLayout.astro";
 import mortarProducts from "../../content/mortar-cc";
+import { CATEGORY_LIST } from "../../utils/constants";
 
 let Title = "Mortar";
 let Image = "/images/tile-adhesive/Rectangle526.png";
@@ -10,23 +11,7 @@ let products = mortarProducts.map((product) => ({
   image: product.image,
   link: `/mortar-cc/${product.slug}`,
 }));
-let otherCategories = [
-  {
-    name: "MORTAR",
-    image: "/images/tile-adhesive/BLOCK GRIP ADHESIVE_Image.png",
-    link: "/mortar-cc",
-  },
-  {
-    name: "WATERPROOFING",
-    image: "/images/tile-adhesive/BLOCK GRIP ADHESIVE_Image-1.png",
-    link: "/waterproofing-cc",
-  },
-  {
-    name: "PRECISION STEEL GROUTS",
-    image: "/images/tile-adhesive/BLOCK GRIP ADHESIVE_Image-2.png",
-    link: "/precision-steel-grouts-cc",
-  },
-];
+let otherCategories = CATEGORY_LIST.filter((cat) => cat.title !== "Mortar");
 ---
 
 <MainLayout>

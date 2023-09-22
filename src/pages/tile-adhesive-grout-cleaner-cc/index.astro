@@ -2,6 +2,7 @@
 import Category from "../../components/Category.astro";
 import MainLayout from "../../layouts/MainLayout.astro";
 import tileAdhesiveProducts from "../../content/tile-adhesive-grout-cleaner-cc";
+import { CATEGORY_LIST } from "../../utils/constants";
 
 let Title = "Tile Adhesive, Grout & Cleaner";
 let Image = "/images/tile-adhesive/Rectangle526.png";
@@ -10,23 +11,9 @@ let products = tileAdhesiveProducts.map((product) => ({
   image: product.image,
   link: `/tile-adhesive-grout-cleaner-cc/${product.slug}`,
 }));
-let otherCategories = [
-  {
-    name: "MORTAR",
-    image: "/images/tile-adhesive/BLOCK GRIP ADHESIVE_Image.png",
-    link: "/mortar-cc",
-  },
-  {
-    name: "WATERPROOFING",
-    image: "/images/tile-adhesive/BLOCK GRIP ADHESIVE_Image-1.png",
-    link: "/waterproofing-cc",
-  },
-  {
-    name: "PRECISION STEEL GROUTS",
-    image: "/images/tile-adhesive/BLOCK GRIP ADHESIVE_Image-2.png",
-    link: "/precision-steel-grouts-cc",
-  },
-];
+let otherCategories = CATEGORY_LIST.filter(
+  (cat) => cat.title.includes("Tile Adhesive") === false
+);
 ---
 
 <MainLayout>

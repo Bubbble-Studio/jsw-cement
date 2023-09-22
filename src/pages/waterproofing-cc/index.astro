@@ -2,32 +2,19 @@
 import Category from "../../components/Category.astro";
 import MainLayout from "../../layouts/MainLayout.astro";
 import waterproofingProducts from "../../content/waterproofing-cc";
+import { CATEGORY_LIST } from "../../utils/constants";
 
 let Title = "Waterproofing";
-let Image = "/images/tile-adhesive/Rectangle526.png";
+let Image = "/images/waterproofing/banner-img.jpg";
 let products = waterproofingProducts.map((product) => ({
   name: product.name,
   image: product.image,
   link: `/waterproofing-cc/${product.slug}`,
 }));
 
-let otherCategories = [
-  {
-    name: "TILE ADHESIVE, GROUT & CLEANER",
-    image: "/images/tile-adhesive/BLOCK GRIP ADHESIVE_Image-1.png",
-    link: "/tile-adhesive-grout-cleaner-cc",
-  },
-  {
-    name: "MORTAR",
-    image: "/images/tile-adhesive/BLOCK GRIP ADHESIVE_Image.png",
-    link: "/mortar-cc",
-  },
-  {
-    name: "PRECISION STEEL GROUTS",
-    image: "/images/tile-adhesive/BLOCK GRIP ADHESIVE_Image-2.png",
-    link: "/precision-steel-grouts-cc",
-  },
-];
+let otherCategories = CATEGORY_LIST.filter(
+  (cat) => cat.title !== "Waterproofing"
+);
 ---
 
 <MainLayout>
