@@ -7,6 +7,7 @@ import { CATEGORY_LIST } from "../../utils/constants";
 let Title = "Tile Adhesive, Grout & Cleaner";
 let Image = "/images/tile-adhesive/banner-img.png";
 let products = tileAdhesiveProducts.map((product) => ({
+  ...product,
   name: product.name,
   image: product.image,
   link: `/tile-adhesive-grout-cleaner-cc/${product.slug}`,
