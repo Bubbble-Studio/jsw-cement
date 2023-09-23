@@ -97,6 +97,6 @@ export const FEATURE_ICONS = {
 export const CATEGORIES = {
   "tile-adhesive-grout-cleaner": "Tile Adhesive & Grout Cleaner",
   waterproofing: "Waterproofing",
-  "steel-grout": "Steel Grout",
+  "precision-steel-grouts": "Precision Steel Grouts",
   mortar: "Mortar",
 };
