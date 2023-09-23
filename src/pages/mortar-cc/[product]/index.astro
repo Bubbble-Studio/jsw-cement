@@ -14,6 +14,12 @@ export const getStaticPaths = (() => {
 }) satisfies GetStaticPaths;
 
 const { data } = Astro.props;
+const relatedProducts = mortar
+  .filter((product) => product.slug !== data.slug)
+  .map((prod) => ({
+    ...prod,
+    link: `/mortar-cc/${prod.slug}`,
+  }));
 ---
 
-<ProductPage data={data} />
+<ProductPage data={{ ...data, relatedProducts }} />

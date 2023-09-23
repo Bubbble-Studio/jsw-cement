@@ -1,10 +1,10 @@
 ---
 import type { GetStaticPaths } from "astro";
-import tileAdhesive from "../../../content/steel-grouts-cc";
+import steelGrouts from "../../../content/steel-grouts-cc";
 import ProductPage from "../../../components/ProductPage.astro";
 
 export const getStaticPaths = (() => {
-  const allPages = tileAdhesive;
+  const allPages = steelGrouts;
   const paths = allPages.map((page) => ({
     params: { product: page.slug },
     props: { data: page },
@@ -14,6 +14,15 @@ export const getStaticPaths = (() => {
 }) satisfies GetStaticPaths;
 
 const { data } = Astro.props;
+const relatedProducts = steelGrouts
+  .filter((product) => product.slug !== data.slug)
+  .map((prod) => ({
+    ...prod,
+    link: `/precision-steel-grouts-cc/${prod.slug}`,
+  }));
 ---
 
-<ProductPage data={data} bannerImg="/images/steel-grouts/banner-img.png" />
+<ProductPage
+  data={{ ...data, relatedProducts }}
+  bannerImg="/images/steel-grouts/banner-img.png"
+/>

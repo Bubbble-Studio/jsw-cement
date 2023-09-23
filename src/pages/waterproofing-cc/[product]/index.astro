@@ -14,6 +14,15 @@ export const getStaticPaths = (() => {
 }) satisfies GetStaticPaths;
 
 const { data } = Astro.props;
+const relatedProducts = waterproofing
+  .filter((product) => product.slug !== data.slug)
+  .map((prod) => ({
+    ...prod,
+    link: `/waterproofing-cc/${prod.slug}`,
+  }));
 ---
 
-<ProductPage data={data} bannerImg="/images/waterproofing/banner-img.jpg" />
+<ProductPage
+  data={{ ...data, relatedProducts }}
+  bannerImg="/images/waterproofing/banner-img.jpg"
+/>

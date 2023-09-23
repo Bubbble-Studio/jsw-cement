@@ -18,9 +18,9 @@ const { product, style } = Astro.props;
     }}
     class="text-center"
   >
-    {product.name}
+    {product.title || product.name}
   </h5>
-  <a class="product-button-bblestds" href={product.link}> View Details</a>
+  <a class="product-button-bblestds" href={product.link}>View Details</a>
 </div>
 
 <style>
