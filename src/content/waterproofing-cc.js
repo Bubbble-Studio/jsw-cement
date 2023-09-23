@@ -18,7 +18,7 @@ const data = [
       "Workability: Improves workability and cohesiveness of the mortar and concrete.",
       "Anti Bleeding: Reduces bleeding and segregation in mortar and concrete.",
       "Compatibility: Being liquid, easily dispersible and compatible with mortar/concrete mixes.",
-      "LowPermeability:Itreduceswaterpenetrationinmortar and concrete.",
+      "Low Permeability: It reduces water penetrationin mortar and concrete.",
       "Durability: Improves durability due to reduction in permeability in concrete (by improving cohesiveness in concrete) and hence protects steel against corrosion in a better way.",
       "Shrinkage: Reduces shrinkage crack development in plaster and concrete.",
     ],
