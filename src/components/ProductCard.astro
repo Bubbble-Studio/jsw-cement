@@ -1,0 +1,98 @@
+---
+const { product, style } = Astro.props;
+---
+
+<div class={`product-box-bblestds`} {style}>
+  <img
+    style={{
+      height: "80%",
+      maxWidth: "100%",
+      objectFit: "contain",
+    }}
+    src={product.image}
+    alt={product.name}
+  />
+  <h5
+    style={{
+      fontWeight: "bold",
+    }}
+    class="text-center"
+  >
+    {product.name}
+  </h5>
+  <a class="product-button-bblestds" href={product.link}> View Details</a>
+</div>
+
+<style>
+  .product-box-bblestds {
+    flex: 1;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1.5rem;
+    gap: 1rem;
+    background: linear-gradient(180deg, #21336804, #21336826);
+    border-radius: 2rem;
+    position: relative;
+    color: #17479e;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  .product-box-bblestds::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, #21336826, #21336899);
+    z-index: 2;
+    transition: all 0.3s ease-in-out;
+  }
+  .product-box-bblestds:hover::after {
+    top: 0;
+    opacity: 1;
+    left: 0;
+  }
+  .product-box-bblestds:hover h5 {
+    transition: all 0.3s ease-in-out;
+    color: white;
+    z-index: 4;
+    transform: translateY(-7rem);
+  }
+  .product-box-bblestds img {
+    transition: all 0.3s ease-in-out;
+  }
+  .product-box-bblestds:hover img {
+    transform: scale(1.05);
+  }
+
+  .product-button-bblestds {
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    bottom: -4rem;
+    padding: 0.5rem 2rem;
+    border: #17479e;
+    background: white;
+    border-radius: 2rem;
+  }
+  .product-button-bblestds:hover {
+    transition: all 0.3s ease-in-out;
+    background: #17479e;
+    color: white;
+  }
+  .product-box-bblestds:hover .product-button-bblestds {
+    bottom: 6rem;
+    z-index: 4;
+  }
+
+  @media screen and (max-width: 768px) {
+    .product-box-bblestds {
+      height: 400px;
+    }
+  }
+</style>
