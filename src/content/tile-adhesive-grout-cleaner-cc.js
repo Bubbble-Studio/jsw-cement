@@ -4,6 +4,7 @@ const data = [
     subTitle: "TILE ADISIVE FOR FLOOR & WALL- CERAMIC TILES",
     slug: "jsw-tylfix-type-1",
     image: "/images/tile-adhesive/JSW-TYLFIX-TYPE-1.png",
+    leaflet: "/pdf/JSW-TILE-ADHESIVE-TYPE-1.pdf",
     category: "tile-adhesive-grout-cleaner",
     description:
       "JSW Tylfix Type 1 is a polymer modified cement based powder tile adhesive for fixing all type of ceramic, clay tiles, It is suitable for both vertical and horizontal application. It gives excellent bond on exterior cementitious surfaces like plaster or concrete etc.",
@@ -85,6 +86,7 @@ const data = [
     slug: "jsw-tylfix-type-2",
     image: "/images/tile-adhesive/JSW-TYLFIX-TYPE-2.png",
     category: "tile-adhesive-grout-cleaner",
+    leaflet: "/pdf/JSW-TILE-ADHESIVE-TYPE-2.pdf",
     description:
       "JSW Tylfix Type 2 is a polymer modified cement based powder tile adhesive for fixing All types of ceramic tile, terracotta, pavers, brick vitrified tiles, glass. It is suitable for Flooring and walls, for internal applications & external shaded area, external area, dry & wet area, new construction & renovation, domestic applications, commercial applications.",
     features: [
@@ -166,6 +168,7 @@ const data = [
     subTitle: "TILE ADISIVE FOR FLOOR & GLASS & STONE TILES",
     slug: "jsw-tylfix-type-3",
     image: "/images/tile-adhesive/JSW-TYLFIX-TYPE-3.png",
+    leaflet: "/pdf/JSW-TILE-ADHESIVE-TYPE-3.pdf",
     category: "tile-adhesive-grout-cleaner",
     description:
       "JSW Tylfix Type 3 is a polymer modified cement based powder tile adhesive for fixing All types of ceramic tiles, clay tiles, basalt tiles, terracotta, pavers, brick, vitrified tiles, glass mosaic tiles, porcelain tiles and all natural stone tiles. It is suitable for Flooring and walls, for internal applications & external shaded area, external area, dry & wet area, new construction & renovation, domestic applications, commercial applications.",
@@ -249,6 +252,7 @@ const data = [
     subTitle: "TILE ADISIVE FOR LARGE GLASS & STONE TILES AND DRY WALL BOARDS",
     slug: "jsw-tylfix-type-4",
     image: "/images/tile-adhesive/JSW-TYLFIX-TYPE-4.png",
+    leaflet: "/pdf/JSW-TILE-ADHESIVE-TYPE-4.pdf",
     category: "tile-adhesive-grout-cleaner",
     description:
       "JSW Tylfix Type 4 All types of ceramic tiles, clay tiles, basalt tiles,terracotta, pavers, brick, vitrified tiles, glass mosaic tiles, porcelain tiles,natural stone tiles, large format tiles, marble, large thin/slim tiles, low thickness slabs. It is suitable for Flooring an walls, for internal applications & external area, dry & wet area, fountains and swimming pool, new construction & renovation, domestic applications, commercial applications.",
@@ -329,6 +333,7 @@ const data = [
     title: "JSW TYLFIX GROUT - CEMENTITIOUS",
     subTitle: "CEMENT-BASED TILE JOIN FILLER GROUT",
     slug: "jsw-tylfix-grout-cementitious",
+    leaflet: "/pdf/JSW-TYLFIX-GROUT-CEMENTITIOUS.pdf",
     image: "/images/tile-adhesive/JSW-TYLFIX-GROUT-CEMENTITIOUS.png",
     category: "tile-adhesive-grout-cleaner",
     description:
@@ -406,6 +411,7 @@ const data = [
     subTitle: "STRONG PERFORMANCE CLEANER",
     slug: "jsw-tylfix-cleaner",
     image: "/images/tile-adhesive/JSW-TYLFIX-CLEANER.png",
+    leaflet: "/pdf/JSW-TYLFIX-CLEANER.pdf",
     category: "tile-adhesive-grout-cleaner",
     description:
       "Tylfix Cleaner is a strong performance rapid active cleaner and degreasing solution for use on tiles, bathtubs, wash basin, privy basin and concrete etc. It is used to clean whitish spot/ layer as normally observed in the bathroom under plastic/ metal buckets (normal detergent is not helpful) with ease",

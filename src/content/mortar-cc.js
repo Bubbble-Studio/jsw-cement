@@ -5,6 +5,7 @@ const data = [
     slug: "enduro-plast",
     image: "/images/mortar/ENDURO-PLAST.png",
     category: "mortar",
+    leaflet: null,
     description:
       "Single component rendering mortar with a ratio of graded inert sand with cement and polymers for applications in civil construction works.",
     features: ["For Ceillings", "For Walls"],
@@ -63,6 +64,7 @@ const data = [
     slug: "block-grip-adhesive",
     image: "/images/mortar/BLOCK-GRIP-ADHESIVE.png",
     category: "mortar",
+    leaflet: "/pdf/Block-Grip-Adhesive.pdf",
     description:
       "It's a single-component thixotropic thin-bed fixing and jointing block grip adhesive. It contains an aggregate ratio of graded inert sand with cement and polymers for applications as a bond-gripping material in civil construction works. It is recommended for fixing and jointing AAC blocks, ALC blocks, Cement mortar blocks, Cellular concrete blocks, Fly ash bricks and Composite cement blocks.",
     features: [

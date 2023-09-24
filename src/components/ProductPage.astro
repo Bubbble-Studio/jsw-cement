@@ -18,6 +18,7 @@ const {
   features,
   category,
   relatedProducts,
+  leaflet,
 } = data;
 
 const AvailableHeaders = {
@@ -146,13 +147,19 @@ const tableHeaders = Object.keys(specificationsTable[0]).map((key) => ({
           Technical Data Sheet
           <DownloadIcon className="ml-3" />
         </AnchorButton>
-        <AnchorButton
-          style={`border-color:${JSW_COLORS.p2} !important; color:${JSW_COLORS.p2}`}
-          className="border ml-sm-3 mt-3 mt-sm-0 text-center"
-        >
-          Download Leaflet
-          <DownloadIcon className="ml-3" />
-        </AnchorButton>
+        {
+          leaflet && (
+            <AnchorButton
+              style={`border-color:${JSW_COLORS.p2} !important; color:${JSW_COLORS.p2}`}
+              className="border ml-sm-3 mt-3 mt-sm-0 text-center"
+              download={leaflet}
+              href={leaflet}
+            >
+              Download Leaflet
+              <DownloadIcon className="ml-3" />
+            </AnchorButton>
+          )
+        }
       </div>
     </div>
   </SectionLayout>
@@ -167,27 +174,48 @@ const tableHeaders = Object.keys(specificationsTable[0]).map((key) => ({
     Other Product Ranges
   </h1>
   <div class="other-products mt-5">
-    <!-- {
-      relatedProducts.map((product) => {
-        return (
-          <div class="other-product">
-            <ProductCard {product} />
-          </div>
-        );
-      })
-    } -->
-    <!-- Implement slick slider here -->
+    <svg
+      id="custom-slider-arrow-left"
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      class="slider-arrow left"
+      ><line x1="5" y1="12" x2="19" y2="12"></line><polyline
+        points="12 5 19 12 12 19"></polyline></svg
+    >
     <div class="other-products-slider">
       {
         relatedProducts.map((product) => {
           return (
-            <div class="other-product p-2">
+            <div class="other-product px-3">
               <ProductCard {product} />
             </div>
           );
         })
       }
     </div>
+
+    <svg
+      id="custom-slider-arrow-right"
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      class="slider-arrow right"
+      ><line x1="5" y1="12" x2="19" y2="12"></line><polyline
+        points="12 5 19 12 12 19"></polyline></svg
+    >
   </div>
 </SectionLayout>
 
@@ -311,6 +339,39 @@ const tableHeaders = Object.keys(specificationsTable[0]).map((key) => ({
     gap: 1rem;
   }
 
+  .other-products {
+    position: relative;
+  }
+
+  .slider-arrow {
+    position: absolute;
+    top: 50%;
+    right: -25px;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 25px;
+    padding: 2px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+  }
+
+  .slider-arrow:hover {
+    background-color: #17479e;
+    color: #fff;
+  }
+
+  .slider-arrow.left {
+    left: -25px;
+    right: auto;
+    transform: translateY(-50%) rotate(180deg);
+    z-index: 1;
+  }
+
   @media screen and (max-width: 1100px) {
     .image-container {
       height: 450px;
@@ -364,6 +425,12 @@ const tableHeaders = Object.keys(specificationsTable[0]).map((key) => ({
       overflow-x: auto;
       margin-top: 1rem;
     }
+    .slider-arrow {
+      right: 0px;
+    }
+    .slider-arrow.left {
+      left: 0px;
+    }
   }
 </style>
 
@@ -379,6 +446,8 @@ const tableHeaders = Object.keys(specificationsTable[0]).map((key) => ({
       adaptiveHeight: true,
       autoplay: true,
       autoplaySpeed: 5000,
+      prevArrow: $("#custom-slider-arrow-left"),
+      nextArrow: $("#custom-slider-arrow-right"),
       responsive: [
         {
           breakpoint: 768,

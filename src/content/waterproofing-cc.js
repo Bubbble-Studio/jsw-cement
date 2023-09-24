@@ -6,6 +6,7 @@ const data = [
     slug: "smartblok-iwc-200",
     image: "/images/waterproofing/SMARTBLOK IWC+200.png",
     category: "waterproofing",
+    leaflet: "/pdf/products/SB-IWC.pdf",
     description:
       "JSW Smart Blok IWC+ 200 is an Integral liquid waterproofing compound composed of surface active plasticizers, polymers and additives. It reduces the water demand (6-8% reduction) with the required work-ability in mortar and concrete.",
     features: [
@@ -93,6 +94,7 @@ const data = [
       "ECO FRIENDLY MULTIPURPOSE SBR POLYMER FOR WATER PROOFING & REPAIR",
     slug: "smartblok-sbr-ultra",
     category: "waterproofing",
+    leaflet: "/pdf/produts/SBR-ULTRA.pdf",
     image: "/images/waterproofing/SMARTBLOK SBR ULTRA.png",
     category: "waterproofing",
     description:
@@ -158,6 +160,7 @@ const data = [
     title: "SMARTBLOK SBR ULTRA PLUS",
     slug: "smartblok-sbr-ultra-plus",
     category: "waterproofing",
+    leaflet: "/pdf/products/SBR-ULTRA-PLUS.pdf",
     image: "/images/waterproofing/SMARTBLOK SBR ULTRA PLUS.png",
     subTitle:
       "ECO-FRIENDLY MULTIPURPOSE HIGH PERFORMANCE SBR POLYMER FOR WATER PROOFING & REPAIR",
@@ -225,6 +228,7 @@ const data = [
     title: "SMARTBLOK UNIVERSAL POLYMER",
     slug: "smartblok-universal-polymer",
     category: "waterproofing",
+    leaflet: "/pdf/products/UNIVERSAL-POLYMER.pdf",
     image: "/images/waterproofing/SMARTBLOK UNIVERSAL POLYMER.png",
     subTitle:
       "WEATHERPROOF HIGH PERFORMANCE ACRYLIC POLYMER FOR WATERPROOFING & REPAIR APPLICATION",
@@ -289,6 +293,7 @@ const data = [
     slug: "smartblok-cem-2k-ultra",
     category: "waterproofing",
     image: "/images/waterproofing/SMARTBLOK CEM 2K ULTRA.png",
+    leaflet: "/pdf/products/CEM-2K-ULTRA.pdf",
     subTitle: "High Performance Acrylic Cementitious Waterproofing Coating",
     description:
       "JSW SmartBlok Acrycem 2K is a two-component water proofing product, based on acrylic and cementitious materials. It forms an excellent flexible film coating on the concrete and mortar substrate, that provides superior water proofing.",
@@ -352,6 +357,7 @@ const data = [
     title: "SMARTBLOK CEM 2K ULTRA PLUS",
     slug: "smartblok-cem-2k-ultra-plus",
     category: "waterproofing",
+    leaflet: "/pdf/products/CEM-2K-ULTRA-PLUS.pdf",
     image: "/images/waterproofing/SMARTBLOK CEM 2K ULTRA PLUS.png",
     subTitle: "Superior Performance Acrylic Cementitious Waterproofing Coating",
     description:
