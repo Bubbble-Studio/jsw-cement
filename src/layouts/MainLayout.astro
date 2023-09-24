@@ -1,4 +1,6 @@
 ---
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
 const { title } = Astro.props;
 ---
 
@@ -27,35 +29,31 @@ const { title } = Astro.props;
       href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Red+Hat+Display:wght@700&display=swap"
       rel="stylesheet"
     />
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
 
-    <link href="css/animate.css" rel="stylesheet" />
+    <link href="/css/animate.css" rel="stylesheet" />
 
-    <link href="css/slick-theme.min.css" rel="stylesheet" />
+    <link href="/css/slick-theme.min.css" rel="stylesheet" />
 
-    <link href="css/slick.min.css" rel="stylesheet" />
+    <link href="/css/slick.min.css" rel="stylesheet" />
 
-    <link href="css/jquery.fancybox.min.css" rel="stylesheet" />
+    <link href="/css/jquery.fancybox.min.css" rel="stylesheet" />
 
-    <link href="css/swiper.css" rel="stylesheet" />
+    <link href="/css/swiper.css" rel="stylesheet" />
 
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="/css/style.css" rel="stylesheet" />
 
-    <link href="css/responsive.css" rel="stylesheet" />
+    <link href="/css/responsive.css" rel="stylesheet" />
 
     <title>{title || "JSW"}</title>
-    <!--?php include 'google-analytics.php';?-->
   </head>
   <body>
     <!-- <Header /> -->
-    <!--?php include 'header.php';?-->
     <main>
       <slot />
     </main>
     <!-- <Footer /> -->
-    <!--?php include 'footer.php';?-->
   </body>
-  <!--?php include 'body-google-analytics.php';?-->
 </html>
 
 <script is:inline src="/js/jquery-3.5.0.min.js"></script>
@@ -66,17 +64,17 @@ const { title } = Astro.props;
   integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
   crossorigin="anonymous"></script>
 
-<script is:inline src="js/bootstrap.bundle.min.js"></script>
+<script is:inline src="/js/bootstrap.bundle.min.js"></script>
 
-<script is:inline src="js/hoverIntent.js"></script>
+<script is:inline src="/js/hoverIntent.js"></script>
 
-<script is:inline src="js/slick.min.js"></script>
+<script is:inline src="/js/slick.min.js"></script>
 
-<script is:inline src="js/jquery.fancybox.min.js"></script>
+<script is:inline src="/js/jquery.fancybox.min.js"></script>
 
-<script is:inline src="js/swiper.js"></script>
+<script is:inline src="/js/swiper.js"></script>
 
-<script is:inline src="js/main.js"></script>
+<script is:inline src="/js/main.js"></script>
 
 <script is:inline>
 $(document).ready(function () {
