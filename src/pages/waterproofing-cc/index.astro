@@ -7,6 +7,7 @@ import { CATEGORY_LIST } from "../../utils/constants";
 let Title = "Waterproofing";
 let Image = "/images/waterproofing/banner-img.jpg";
 let products = waterproofingProducts.map((product) => ({
+  ...product,
   name: product.name,
   image: product.image,
   link: `/waterproofing-cc/${product.slug}`,
