@@ -132,6 +132,10 @@ let {
   .other-cat-card-img:hover {
     transform: scale(1.05);
   }
+  .banner-slider {
+    width: 100vw;
+    overflow: hidden;
+  }
 
   @media screen and (max-width: 768px) {
     .products {
@@ -148,6 +152,7 @@ let {
       infinite: true,
       speed: 500,
       fade: true,
+      showArrows: false,
       cssEase: "linear",
       adaptiveHeight: true,
       autoplay: true,
