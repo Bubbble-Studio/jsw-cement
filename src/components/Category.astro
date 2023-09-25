@@ -3,11 +3,17 @@ import SectionLayout from "../layouts/SectionLayout.astro";
 import { JSW_COLORS } from "../utils/constants";
 import DownloadProductCatalogueCard from "./DownloadProductCatalogueCard.astro";
 import ProductCard from "./ProductCard.astro";
-let { headerBG, title, products, otherCategories, categoryBrochure } =
-  Astro.props;
+let {
+  headerBG,
+  title,
+  products,
+  otherCategories,
+  categoryBrochure,
+  bannerImages,
+} = Astro.props;
 ---
 
-<section
+<!-- <section
   class=""
   style={{
     backgroundImage: `url(${headerBG})`,
@@ -16,6 +22,15 @@ let { headerBG, title, products, otherCategories, categoryBrochure } =
     backgroundSize: "cover",
   }}
 >
+</section> -->
+<section class="banner-slider">
+  {
+    bannerImages.map((img) => (
+      <div class="w-100">
+        <img src={img} alt={title} class="w-100 object-fit-cover" />
+      </div>
+    ))
+  }
 </section>
 <SectionLayout className="my-5">
   <div
@@ -124,3 +139,19 @@ let { headerBG, title, products, otherCategories, categoryBrochure } =
     }
   }
 </style>
+
+<script>
+  $(document).ready(function () {
+    $(".banner-slider").slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      infinite: true,
+      speed: 500,
+      fade: true,
+      cssEase: "linear",
+      adaptiveHeight: true,
+      autoplay: true,
+      autoplaySpeed: 5000,
+    });
+  });
+</script>
