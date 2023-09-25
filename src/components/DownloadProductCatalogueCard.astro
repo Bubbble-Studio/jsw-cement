@@ -21,6 +21,9 @@ let { title, image, buttonText, buttonLink, hasButton } = Astro.props;
       <AnchorButton
         style={`background-color:${JSW_COLORS.bg.light}; color: ${JSW_COLORS.text.dark}`}
         className="mt-4"
+        href={buttonLink}
+        download={buttonLink}
+        target="_blank"
       >
         {buttonText}
       </AnchorButton>

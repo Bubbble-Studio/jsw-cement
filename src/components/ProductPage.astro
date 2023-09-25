@@ -74,7 +74,7 @@ const tableHeaders = Object.keys(specificationsTable[0]).map((key) => ({
       <div class="mt-5">
         <h6 style="font-weight:700">FEATURES</h6>
         <div
-          class="features-container d-flex justify-content-between align-items-center mt-3"
+          class="features-container d-flex justify-content-between align-items-start mt-3"
         >
           {
             features.map((feature) => (
@@ -282,6 +282,7 @@ const tableHeaders = Object.keys(specificationsTable[0]).map((key) => ({
     border: 1px solid #17479e33;
     border-radius: 1.25rem;
     padding: 1rem 2rem;
+    padding-top: 1.5rem;
     flex-wrap: wrap;
   }
   .features-container > div {

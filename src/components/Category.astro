@@ -3,7 +3,8 @@ import SectionLayout from "../layouts/SectionLayout.astro";
 import { JSW_COLORS } from "../utils/constants";
 import DownloadProductCatalogueCard from "./DownloadProductCatalogueCard.astro";
 import ProductCard from "./ProductCard.astro";
-let { headerBG, title, products, otherCategories } = Astro.props;
+let { headerBG, title, products, otherCategories, categoryBrochure } =
+  Astro.props;
 ---
 
 <section
@@ -87,7 +88,7 @@ let { headerBG, title, products, otherCategories } = Astro.props;
     image="/images/tile-adhesive/Rectangle522.png"
     title="Download Brochure"
     buttonText="Download"
-    buttonLink="/download"
+    buttonLink={categoryBrochure}
   />
 </SectionLayout>
 

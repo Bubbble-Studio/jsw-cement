@@ -1,5 +1,5 @@
 ---
-const { href, download, style, className = "" } = Astro.props;
+const { href, download, style, className = "", target } = Astro.props;
 ---
 
 {
@@ -9,11 +9,12 @@ const { href, download, style, className = "" } = Astro.props;
       href={href}
       class={`anchor-button ${className}`}
       style={style}
+      {target}
     >
       <slot />
     </a>
   ) : (
-    <a href={href} class={`anchor-button ${className}`} style={style}>
+    <a href={href} class={`anchor-button ${className}`} style={style} {target}>
       <slot />
     </a>
   )

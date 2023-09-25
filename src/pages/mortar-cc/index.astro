@@ -15,6 +15,11 @@ let otherCategories = CATEGORY_LIST.filter((cat) => cat.title !== "Mortar");
 ---
 
 <MainLayout>
-  <Category headerBG={Image} title={Title} {products} {otherCategories} />
+  <Category
+    headerBG={Image}
+    title={Title}
+    {products}
+    {otherCategories}
+    categoryBrochure="/pdf/category/Mortar-Catalogue.pdf"
+  />
 </MainLayout>
- ../../content/mortar_cc
