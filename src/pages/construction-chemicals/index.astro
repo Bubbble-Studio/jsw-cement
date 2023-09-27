@@ -36,9 +36,9 @@ const sliderImages = ["/images/construction-chemicals/main-banner-img.jpg"];
   </SectionLayout>
   <CategorySection
     title="Tile Adhesive, Grout & Cleaner"
-    description="Fix, clean & sustain with ease! The Tile Adhesive, Grout, and Cleaner are part of our top-quality tile range products that offer premium fixtures, quick stain removal and perfect for rendering surfaces waterproof and chemical-resistant."
+    description="Fix, clean & sustain with ease! The Tile Adhesive, Grout, and Cleaner are part of our top-quality tile range products that offer premium fixtures, and quick stain removal and are perfect for rendering surfaces waterproof and chemical-resistant."
     features={[
-      "High-quality performance for effective, easy cleaning",
+      "High-quality performance for effective and easy cleaning",
       "Compatible with a wide range of surfaces",
       "Long-lasting results with water-resistant properties",
     ]}
@@ -60,7 +60,7 @@ const sliderImages = ["/images/construction-chemicals/main-banner-img.jpg"];
   />
   <CategorySection
     title="Mortar"
-    description="Smooth finishes just got a whole lot stronger! The Block Grip Adhesive helps form a robust bond with reduced water consumption, complemented by Enduro Plast’s enhanced bond strength & minimized rebound. "
+    description="Smooth finishes just got a whole lot stronger! The Block Grip Adhesive helps form a robust bond with reduced water consumption, complemented by Enduro Plast's enhanced bond strength & minimized rebound."
     features={[
       "Extremely long-lasting formula",
       "Complete shock resistance",
@@ -73,9 +73,9 @@ const sliderImages = ["/images/construction-chemicals/main-banner-img.jpg"];
     direction="rtl"
     bg="light"
     title="Waterproofing"
-    description="The most effective waterproofing product range is here! The JSW SmartBlok waterproofing range is not only multi-purpose, but also strengthens the bond between old and new concrete and plaster for a variety of applications. "
+    description="The most effective waterproofing product range is here! The JSW SmartBlok waterproofing range is not only multi-purpose but also strengthens the bond between old and new concrete and plaster for a variety of applications."
     features={[
-      "Impenetrable waterproof barriers ",
+      "Impenetrable waterproof barriers",
       "Heightened and improved surface durability",
       "Serves as a universal repair material",
     ]}
@@ -86,12 +86,25 @@ const sliderImages = ["/images/construction-chemicals/main-banner-img.jpg"];
     <DownloadProductCatalogueCard
       hasButton={true}
       image="/images/tile-adhesive/Rectangle522.png"
-      title="Download Product Catalogue"
+      title="Download Brochure"
       buttonText="Download"
       buttonLink="/pdf/brochure/JSW-Construction-Chemicals-Brochure.pdf"
     />
   </SectionLayout>
 </MainLayout>
+
+<style>
+  .hero-slider {
+    max-height: 600px;
+    width: 100%;
+    overflow: hidden;
+  }
+  @media screen and (min-width: 768px) {
+    .hero-slider {
+      min-height: 300px;
+    }
+  }
+</style>
 
 <script is:inline>
 $(document).ready(function () {
