@@ -59,7 +59,7 @@ const data = [
       {
         property: "Non volatile content",
         testMethod: "-",
-        result: "VOC 23 ± 1",
+        result: "23 ± 1",
       },
       {
         property: "pH",
