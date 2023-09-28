@@ -3,6 +3,7 @@ const data = [
     title: "JSW TYLFIX TYPE 1",
     subTitle: "TILE ADISIVE FOR FLOOR & WALL- CERAMIC TILES",
     slug: "jsw-tylfix-type-1",
+    productBannerImg: "/images/tile-adhesive/banner-images/TILE-ADHESIVE-1.jpg",
     image: "/images/tile-adhesive/JSW-TYLFIX-TYPE-1.png",
     leaflet: "/pdf/products/JSW-TILE-ADHESIVE-TYPE-1.pdf",
     category: "tile-adhesive-grout-cleaner",
@@ -85,6 +86,7 @@ const data = [
     subTitle: "TILE ADISIVE FOR FLOOR & WALL & TILE ON TILE",
     slug: "jsw-tylfix-type-2",
     image: "/images/tile-adhesive/JSW-TYLFIX-TYPE-2.png",
+    productBannerImg: "/images/tile-adhesive/banner-images/TILE-ADHESIVE-2.jpg",
     category: "tile-adhesive-grout-cleaner",
     leaflet: "/pdf/products/JSW-TILE-ADHESIVE-TYPE-2.pdf",
     description:
@@ -168,6 +170,7 @@ const data = [
     subTitle: "TILE ADISIVE FOR FLOOR & GLASS & STONE TILES",
     slug: "jsw-tylfix-type-3",
     image: "/images/tile-adhesive/JSW-TYLFIX-TYPE-3.png",
+    productBannerImg: "/images/tile-adhesive/banner-images/TILE-ADHESIVE-3.jpg",
     leaflet: "/pdf/products/JSW-TILE-ADHESIVE-TYPE-3.pdf",
     category: "tile-adhesive-grout-cleaner",
     description:
@@ -252,6 +255,7 @@ const data = [
     subTitle: "TILE ADISIVE FOR LARGE GLASS & STONE TILES AND DRY WALL BOARDS",
     slug: "jsw-tylfix-type-4",
     image: "/images/tile-adhesive/JSW-TYLFIX-TYPE-4.png",
+    productBannerImg: "/images/tile-adhesive/banner-images/TILE-ADHESIVE-4.jpg",
     leaflet: "/pdf/products/JSW-TILE-ADHESIVE-TYPE-4.pdf",
     category: "tile-adhesive-grout-cleaner",
     description:
@@ -335,6 +339,7 @@ const data = [
     slug: "jsw-tylfix-grout-cementitious",
     leaflet: "/pdf/products/JSW-TYLFIX-GROUT-CEMENTITIOUS.pdf",
     image: "/images/tile-adhesive/JSW-TYLFIX-GROUT-CEMENTITIOUS.png",
+    productBannerImg: "/images/tile-adhesive/banner-images/TILE-ADHESIVE-5.jpg",
     category: "tile-adhesive-grout-cleaner",
     description:
       "JSW Tylfix Grout is a polymer-modified, cement-based tile joint filler grouting material, which is highly suitable for filling the joints/gap of all types of tiles. It exhibits water- resistant properties, making it an ideal choice for various applications.",
@@ -411,6 +416,7 @@ const data = [
     subTitle: "STRONG PERFORMANCE CLEANER",
     slug: "jsw-tylfix-cleaner",
     image: "/images/tile-adhesive/JSW-TYLFIX-CLEANER.png",
+    productBannerImg: "/images/tile-adhesive/banner-images/TILE-ADHESIVE-6.jpg",
     leaflet: "/pdf/products/JSW-TYLFIX-CLEANER.pdf",
     category: "tile-adhesive-grout-cleaner",
     description:

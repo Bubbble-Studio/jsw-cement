@@ -19,6 +19,7 @@ const {
   category,
   relatedProducts,
   leaflet,
+  productBannerImg,
 } = data;
 
 const AvailableHeaders = {
@@ -38,7 +39,9 @@ const tableHeaders = Object.keys(specificationsTable[0]).map((key) => ({
 <MainLayout>
   <div
     style={`height: 400px; width: 100%; background-size: cover; background-image: url(${
-      bannerImg || "/images/construction-chemicals/produdct-header.jpg"
+      productBannerImg ||
+      bannerImg ||
+      "/images/construction-chemicals/produdct-header.jpg"
     })`}
   >
   </div>

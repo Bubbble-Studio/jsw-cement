@@ -5,6 +5,7 @@ const data = [
       "INTEGRAL WATERPROOFING COMPOUND SUITABLE FOR ALL TYPES OF CONCRETE & MORTAR",
     slug: "smartblok-iwc-200",
     image: "/images/waterproofing/SMARTBLOK IWC+200.png",
+    productBannerImg: "/images/waterproofing/banner-images/WATERPROOFING-1.jpg",
     category: "waterproofing",
     leaflet: "/pdf/products/SB-IWC.pdf",
     description:
@@ -96,6 +97,7 @@ const data = [
     category: "waterproofing",
     leaflet: "/pdf/produts/SBR-ULTRA.pdf",
     image: "/images/waterproofing/SMARTBLOK SBR ULTRA.png",
+    productBannerImg: "/images/waterproofing/banner-images/WATERPROOFING-2.jpg",
     category: "waterproofing",
     description:
       "JSW SmartBlok SBR Ultra is a selective eco-friendly styrene butadiene latex based polymeric material. This is ready to use for multi-purpose water proofing applications at leakage and seepage prone locations of new constructions including bathroom, toilet, water tank, small terraces etc.",
@@ -162,6 +164,7 @@ const data = [
     category: "waterproofing",
     leaflet: "/pdf/products/SBR-ULTRA-PLUS.pdf",
     image: "/images/waterproofing/SMARTBLOK SBR ULTRA PLUS.png",
+    productBannerImg: "/images/waterproofing/banner-images/WATERPROOFING-3.jpg",
     subTitle:
       "ECO-FRIENDLY MULTIPURPOSE HIGH PERFORMANCE SBR POLYMER FOR WATER PROOFING & REPAIR",
     description:
@@ -230,6 +233,7 @@ const data = [
     category: "waterproofing",
     leaflet: "/pdf/products/UNIVERSAL-POLYMER.pdf",
     image: "/images/waterproofing/SMARTBLOK UNIVERSAL POLYMER.png",
+    productBannerImg: "/images/waterproofing/banner-images/WATERPROOFING-4.jpg",
     subTitle:
       "WEATHERPROOF HIGH PERFORMANCE ACRYLIC POLYMER FOR WATERPROOFING & REPAIR APPLICATION",
     description:
@@ -293,6 +297,7 @@ const data = [
     slug: "smartblok-cem-2k-ultra",
     category: "waterproofing",
     image: "/images/waterproofing/SMARTBLOK CEM 2K ULTRA.png",
+    productBannerImg: "/images/waterproofing/banner-images/WATERPROOFING-5.jpg",
     leaflet: "/pdf/products/CEM-2K-ULTRA.pdf",
     subTitle: "High Performance Acrylic Cementitious Waterproofing Coating",
     description:
@@ -359,6 +364,7 @@ const data = [
     category: "waterproofing",
     leaflet: "/pdf/products/CEM-2K-ULTRA-PLUS.pdf",
     image: "/images/waterproofing/SMARTBLOK CEM 2K ULTRA PLUS.png",
+    productBannerImg: "/images/waterproofing/banner-images/WATERPROOFING-6.jpg",
     subTitle: "Superior Performance Acrylic Cementitious Waterproofing Coating",
     description:
       "JSW SmartBlok Cem 2K Ultra Plus is a modified polymer and cementitious hybrid Superior performance, ultra- flexible two-part water proofing coat.",

@@ -6,6 +6,7 @@ const data = [
     image: "/images/steel-grouts/SG-1-FLOWABLE.png",
     category: "precision-steel-grouts",
     leaflet: "/pdf/products/JSW-SG-1.pdf",
+    productBannerImg: "/images/steel-grouts/banner-images/STEEL-GROUT-1.jpg",
     description:
       "JSW Steel Grout SG 1 is a cementitious flow-able non shrink high strength grout for precision application like repair RCC Structures heavy machinery foundations etc.",
     features: ["Highly Flowable", "Non shrink Non Expansive", "High Strength"],
@@ -77,6 +78,7 @@ const data = [
     subTitle: "HIGH PERFORMANCE GROUT",
     slug: "sg-2-flowable",
     image: "/images/steel-grouts/SG-2-FLOWABLE.png",
+    productBannerImg: "/images/steel-grouts/banner-images/STEEL-GROUT-2.jpg",
     category: "precision-steel-grouts",
     leaflet: "/pdf/products/JSW-SG-2.pdf",
     description:
@@ -150,6 +152,7 @@ const data = [
     subTitle: "GENERAL PURPOSE PRECISION GROUT",
     slug: "sg-3-flowable",
     image: "/images/steel-grouts/SG-3-FLOWABLE.png",
+    productBannerImg: "/images/steel-grouts/banner-images/STEEL-GROUT-3.jpg",
     category: "precision-steel-grouts",
     leaflet: "/pdf/products/JSW-SG-3.pdf",
     description:

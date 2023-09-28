@@ -1,7 +1,8 @@
 ---
 import { JSW_COLORS } from "../utils/constants";
 import AnchorButton from "./AnchorButton.astro";
-let { title, image, buttonText, buttonLink, hasButton } = Astro.props;
+let { title, image, buttonText, buttonLink, hasButton, categoryTitle } =
+  Astro.props;
 ---
 
 <div
@@ -22,7 +23,7 @@ let { title, image, buttonText, buttonLink, hasButton } = Astro.props;
         style={`background-color:${JSW_COLORS.bg.light}; color: ${JSW_COLORS.text.dark}`}
         className="mt-4"
         href={buttonLink}
-        download={buttonLink}
+        download={`${categoryTitle}.pdf`}
         target="_blank"
       >
         {buttonText}
