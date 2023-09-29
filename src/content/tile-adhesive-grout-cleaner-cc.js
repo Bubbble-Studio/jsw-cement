@@ -7,8 +7,9 @@ const data = [
     image: "/images/tile-adhesive/JSW-TYLFIX-TYPE-1.png",
     leaflet: "/pdf/products/JSW-TILE-ADHESIVE-TYPE-1.pdf",
     category: "tile-adhesive-grout-cleaner",
+    boldTitle: "JSW Tylfix Type 1",
     description:
-      "JSW Tylfix Type 1 is a polymer modified cement based powder tile adhesive for fixing all type of ceramic, clay tiles, It is suitable for both vertical and horizontal application. It gives excellent bond on exterior cementitious surfaces like plaster or concrete etc.",
+      "JSW Tylfix Type 1 is a polymer-modified cement-based powder tile adhesive for fixing all types of ceramic, and clay tiles. It is suitable for both vertical and horizontal applications. It gives excellent bond on exterior cementitious surfaces like plaster or concrete etc.",
     features: [
       "Easy To Use",
       "Water Resistant",
@@ -16,9 +17,9 @@ const data = [
     ],
     packages: ["20 kg"],
     benefits: [
-      "Easy to use - Just add water as per recommended W/P ratio on site and ready to use.",
-      "Can be used in internal dry areas, for floor as well as wall application.",
-      "Better adhesive bond strength & Bonds to various cement-based substrates.",
+      "Easy to use: Just add water as per the recommended W/P ratio on-site and ready to use.",
+      "Can be used in internal dry areas. For floor, as well as wall application.",
+      "Better adhesive bond strength and bonds to various cement-based substrates.",
       "Self-curing properties.",
     ],
     relatedProducts: [
@@ -89,8 +90,9 @@ const data = [
     productBannerImg: "/images/tile-adhesive/banner-images/TILE-ADHESIVE-2.jpg",
     category: "tile-adhesive-grout-cleaner",
     leaflet: "/pdf/products/JSW-TILE-ADHESIVE-TYPE-2.pdf",
+    boldTitle: "JSW Tylfix Type 2",
     description:
-      "JSW Tylfix Type 2 is a polymer modified cement based powder tile adhesive for fixing All types of ceramic tile, terracotta, pavers, brick vitrified tiles, glass. It is suitable for Flooring and walls, for internal applications & external shaded area, external area, dry & wet area, new construction & renovation, domestic applications, commercial applications.",
+      "JSW Tylfix Type 2 is a polymer-modified cement-based powder tile adhesive for fixing all types of ceramic tile, terracotta, pavers, brick vitrified tiles, and glass. It is suitable for flooring and walls, internal applications & external shaded areas, external areas, dry & wet areas, new construction & renovation, domestic applications, and commercial applications.",
     features: [
       "Sag Resistant",
       "Water Resistant",
@@ -98,12 +100,12 @@ const data = [
     ],
     packages: ["20 kg"],
     benefits: [
-      "Easy to use - just add water on site, ready to use.",
-      "Ideal product for tile-on-tile applications on floor.",
-      "Sag resistant formula: provides hassle-free application on vertical walls.",
-      "Water resistant - suitable for wet areas.",
+      "Easy to use: Just add water on site, ready to use.",
+      "Ideal product for tile-on-tile applications on the floor.",
+      "Sag-resistant formula: Provides a hassle-free application on vertical walls.",
+      "Water resistant: Suitable for wet areas.",
       "Good adhesive bond strength & bonds to various cement-based substrates.",
-      "Low VOC - for healthy living.",
+      "Low VOC- For healthy living.",
     ],
     relatedProducts: [
       {
@@ -173,8 +175,9 @@ const data = [
     productBannerImg: "/images/tile-adhesive/banner-images/TILE-ADHESIVE-3.jpg",
     leaflet: "/pdf/products/JSW-TILE-ADHESIVE-TYPE-3.pdf",
     category: "tile-adhesive-grout-cleaner",
+    boldTitle: "JSW Tylfix Type 3",
     description:
-      "JSW Tylfix Type 3 is a polymer modified cement based powder tile adhesive for fixing All types of ceramic tiles, clay tiles, basalt tiles, terracotta, pavers, brick, vitrified tiles, glass mosaic tiles, porcelain tiles and all natural stone tiles. It is suitable for Flooring and walls, for internal applications & external shaded area, external area, dry & wet area, new construction & renovation, domestic applications, commercial applications.",
+      "JSW Tylfix Type 3 is a polymer modified cement based powder tile adhesive for fixing all types of ceramic tiles, clay tiles, basalt tiles, terracotta, pavers, brick, vitrified tiles, glass mosaic tiles, porcelain tiles, and all natural stone tiles. It is suitable for Flooring and walls, internal applications & external shaded areas, external areas, dry & wet areas, new construction & renovation, domestic applications, and commercial applications.",
     features: [
       "Sag Resistant",
       "Water Resistant",
@@ -182,13 +185,13 @@ const data = [
     ],
     packages: ["20 kg"],
     benefits: [
-      "Easy to use - just add water on site, ready to use.",
+      "Easy to use: Just add water on site, ready to use.",
       "Ideal product for tiles and stone tiles on exterior wall substrates like plaster or concrete.",
-      "Highly polymer modified provides high adhesion - strength to bond with variety of substrates for fixing a variety of tiles and stones.",
-      "Sag resistant formula: provides hassle-free application on vertical walls.",
-      "Water resistant - suitable for wet areas.",
-      "Sustain heat ageing, making it deal for high temperature locations.",
-      "Low VOC - for healthy living",
+      "Highly polymer modified provides high adhesion - Strength to bond with a variety of substrates for fixing a variety of tiles and stones.",
+      "Sag-resistant formula: Provides a hassle-free application on vertical walls.",
+      "Water resistant- Suitable for wet areas.",
+      "Sustain heat aging, making it a deal for high-temperature locations.",
+      "Low VOC- For healthy living.",
     ],
     relatedProducts: [
       {
@@ -258,8 +261,9 @@ const data = [
     productBannerImg: "/images/tile-adhesive/banner-images/TILE-ADHESIVE-4.jpg",
     leaflet: "/pdf/products/JSW-TILE-ADHESIVE-TYPE-4.pdf",
     category: "tile-adhesive-grout-cleaner",
+    boldTitle: "JSW Tylfix Type 4",
     description:
-      "JSW Tylfix Type 4 All types of ceramic tiles, clay tiles, basalt tiles,terracotta, pavers, brick, vitrified tiles, glass mosaic tiles, porcelain tiles,natural stone tiles, large format tiles, marble, large thin/slim tiles, low thickness slabs. It is suitable for Flooring an walls, for internal applications & external area, dry & wet area, fountains and swimming pool, new construction & renovation, domestic applications, commercial applications.",
+      "JSW Tylfix Type 4 All types of ceramic tiles, clay tiles, basalt tiles, terracotta, pavers, brick, vitrified tiles, glass mosaic tiles, porcelain tiles, natural stone tiles, large format tiles, marble, large thin/slim tiles, low thickness slabs. It is suitable for flooring and walls, internal applications & external areas, dry & wet areas, fountains and swimming pools, new construction & renovation, domestic applications, and commercial applications.",
     features: [
       "Heat Ageing",
       "Water Resistant",
@@ -267,11 +271,11 @@ const data = [
     ],
     packages: ["20 kg"],
     benefits: [
-      "Easy to use - just add water on site, ready to use.",
+      "Easy to use: Just add water on site, ready to use.",
       "Ideal product for tiles and stone tiles on exterior wall substrates like plaster or concrete.",
-      "Highly polymer modified provides high adhesion - strength to bond with variety of substrates for fixing a variety of tiles and stones.",
-      "Sag resistant formula: provides hassle-free application on vertical walls.",
-      "Sustain heat ageing, making it deal for high temperature locations.",
+      "Highly polymer modified provides high adhesion: Strength to bond with a variety of substrates for fixing a variety of tiles and stones.",
+      "Sag-resistant formula: Provides a hassle-free application on vertical walls.",
+      "Sustain heat aging, making it a deal for high-temperature locations.",
     ],
     relatedProducts: [
       {
@@ -341,15 +345,16 @@ const data = [
     image: "/images/tile-adhesive/JSW-TYLFIX-GROUT-CEMENTITIOUS.png",
     productBannerImg: "/images/tile-adhesive/banner-images/TILE-ADHESIVE-5.jpg",
     category: "tile-adhesive-grout-cleaner",
+    boldTitle: "JSW Tylfix Grout",
     description:
-      "JSW Tylfix Grout is a polymer-modified, cement-based tile joint filler grouting material, which is highly suitable for filling the joints/gap of all types of tiles. It exhibits water- resistant properties, making it an ideal choice for various applications.",
+      "JSW Tylfix Grout is a polymer-modified, cement-based tile joint filler grouting material, which is highly suitable for filling the joints/gaps of all types of tiles. It exhibits water-resistant properties, making it an ideal choice for various applications.",
     features: ["Non Shrink", "Crack Free", "Easily Pourable"],
     packages: ["20 kg"],
     benefits: [
-      "Easy to use & Clean: just mix with water, ready to use",
-      "Polymer modified: crack-free, minimum shrinkage & water resistance",
-      "Suitable for varied tile and stones: All ceramics, vitrified tiles, granites, etc.",
-      "Low VOC: For healthy living.",
+      "Easy to use and clean: Just mix with water, ready to use.",
+      "Polymer modified: Crack-free, minimum shrinkage & water resistance.",
+      "Suitable for varied tiles and stones: All ceramics, vitrified tiles, granites, etc.",
+      "Low VOC: For a healthy living.",
     ],
     relatedProducts: [
       {
@@ -419,8 +424,9 @@ const data = [
     productBannerImg: "/images/tile-adhesive/banner-images/TILE-ADHESIVE-6.jpg",
     leaflet: "/pdf/products/JSW-TYLFIX-CLEANER.pdf",
     category: "tile-adhesive-grout-cleaner",
+    boldTitle: "JSW Tylfix Cleaner",
     description:
-      "Tylfix Cleaner is a strong performance rapid active cleaner and degreasing solution for use on tiles, bathtubs, wash basin, privy basin and concrete etc. It is used to clean whitish spot/ layer as normally observed in the bathroom under plastic/ metal buckets (normal detergent is not helpful) with ease",
+      "JSW Tylfix Cleaner is a strong performance rapid active cleaner and degreasing solution for use on tiles, bathtubs, washbasins, privy basins, concrete, etc. It is used to clean whitish spots/layers as normally observed in the bathroom under plastic/ metal buckets (normal detergent is not helpful) with ease.",
     features: [
       "Easy Cleaning",
       "No Residual Marks",
@@ -430,9 +436,9 @@ const data = [
     benefits: [
       "Easy to use: Just mix with water & clean the surface.",
       "Removes difficult stains easily: Fast & effective.",
-      "Degreases the tile surface easily for soaps, scum, efflorescence, mineral deposit. I",
+      "Degreases the tile surface easily for soaps, scum, efflorescence, and mineral deposits. ",
       "Cleans all types of tile like ceramic, porcelain & vitrified tile and grout.",
-      "Protects the color & shine of tile.",
+      "Protects the color & shine of the tile.",
       "Does not damage joints between ceramic tiles, even those grouted with colored products.",
     ],
     relatedProducts: [

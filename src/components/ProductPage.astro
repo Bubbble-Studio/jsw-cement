@@ -20,6 +20,7 @@ const {
   relatedProducts,
   leaflet,
   productBannerImg,
+  boldTitle,
 } = data;
 
 const AvailableHeaders = {
@@ -33,7 +34,18 @@ const tableHeaders = Object.keys(specificationsTable[0]).map((key) => ({
   value: AvailableHeaders[key],
 }));
 
-// const relatedProducts =
+function getDescriptinWithBoldTitleHTML() {
+  // find boldTitle in description, case insensitive
+  // surround with <strong> tag
+  // return html
+  if (!boldTitle) return description;
+  const regex = new RegExp(boldTitle, "gi");
+  const matches = description.match(regex);
+  if (!matches) return description;
+  const html = description.replace(regex, "<strong>$&</strong>");
+  return html;
+}
+const descriptionWithBoldTitle = getDescriptinWithBoldTitleHTML();
 ---
 
 <MainLayout>
@@ -71,7 +83,7 @@ const tableHeaders = Object.keys(specificationsTable[0]).map((key) => ({
       <h1 style={`color:${JSW_COLORS.p2}; font-weight:700;`}>{title}</h1>
       <div class="mt-4 description">
         <h6 style="font-weight:700">DESCRIPTION</h6>
-        <p class="mt-2">{description}</p>
+        <p class="mt-2" set:html={descriptionWithBoldTitle} />
         <hr />
       </div>
       <div class="mt-5">

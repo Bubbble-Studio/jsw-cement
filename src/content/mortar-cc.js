@@ -12,18 +12,18 @@ const data = [
     features: ["For Ceillings", "For Walls"],
     packages: ["40 kg"],
     benefits: [
-      "Cohesive & workable mortar",
-      "Less water consumption",
-      "Increased Curing efficiency",
-      "Improves bond strength with applied substrate",
-      " Reduce Rebound losses",
-      "Better tensile and flexural strength",
-      "Increase in durability",
-      "Faster rate of application",
-      "Extended application time",
-      "Uniform and smooth finishes",
-      "Reduces wall porosity & voids",
-      "Provides enhanced coverage and saves material",
+      "Cohesive & workable mortar.",
+      "Less water consumption.",
+      "Increased Curing efficiency.",
+      "Improves bond strength with applied substrate.",
+      "Reduce Rebound losses.",
+      "Better tensile and flexural strength.",
+      "Increase in durability.",
+      "The faster rate of application.",
+      "Extended application time.",
+      "Uniform and smooth finishes.",
+      "Reduces wall porosity & voids.",
+      "Provides enhanced coverage and saves material.",
     ],
     relatedProducts: [
       {
@@ -68,7 +68,7 @@ const data = [
     productBannerImg: "/images/mortar/banner-images/MORTAR-1.jpg",
     leaflet: "/pdf/products/Block-Grip-Adhesive.pdf",
     description:
-      "It's a single-component thixotropic thin-bed fixing and jointing block grip adhesive. It contains an aggregate ratio of graded inert sand with cement and polymers for applications as a bond-gripping material in civil construction works. It is recommended for fixing and jointing AAC blocks, ALC blocks, Cement mortar blocks, Cellular concrete blocks, Fly ash bricks and Composite cement blocks.",
+      "It's a single-component thixotropic thin-bed fixing and jointing block grip adhesive. It contains an aggregate ratio of graded inert sand with cement and polymers for applications as a bond-gripping material in civil construction works. It is recommended for fixing and joining AAC blocks, ALC blocks, Cement mortar blocks, Cellular concrete blocks, Fly ash bricks, and Composite cement blocks.",
     features: [
       "Cohesive and Workable Adhesive",
       "Self-Cured",
@@ -76,15 +76,15 @@ const data = [
     ],
     packages: ["40 kg"],
     benefits: [
-      "Cohesive & workable mortar",
-      "High tensile & flexural with strong bonding",
-      "Consistent spread for faster rate of application",
-      "Uniform and smooth joint finishes",
-      "Reduced surface porosity & voids",
-      "Better coverage",
-      "Self curing",
-      "Shock and impact resistance",
-      "Resists water seepage",
+      "Cohesive & workable mortar.",
+      "High tensile & flexural with strong bonding.",
+      "Consistent spread for a faster rate of application.",
+      "Uniform and smooth joint finishes.",
+      "Reduced surface porosity & voids.",
+      "Better coverage.",
+      "Self-curing.",
+      "Shock and impact resistance.",
+      "Resists water seepage.",
     ],
     relatedProducts: [
       {
@@ -105,7 +105,7 @@ const data = [
       {
         property: "Tensile Strength at 28 dasy, Mpa",
         result:
-          "0.45 to 0.6 Mpa for 3 mm-6 mm @ 28 days valid for 90% transfer",
+          "0.45 to 0.6 Mpa for 3mm - 6mm @ 28 days valid for 90% transfer",
       },
       {
         property: "Fresh wet density (gm/cc)",

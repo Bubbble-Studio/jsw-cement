@@ -8,8 +8,9 @@ const data = [
     productBannerImg: "/images/waterproofing/banner-images/WATERPROOFING-1.jpg",
     category: "waterproofing",
     leaflet: "/pdf/products/SB-IWC.pdf",
+    boldTitle: "JSW SmartBlok IWC+ 200",
     description:
-      "JSW Smart Blok IWC+ 200 is an Integral liquid waterproofing compound composed of surface active plasticizers, polymers and additives. It reduces the water demand (6-8% reduction) with the required work-ability in mortar and concrete.",
+      "JSW Smart Blok IWC+ 200 is an Integral liquid waterproofing compound composed of surface active plasticizers, polymers, and additives. It reduces the water demand (6-8% reduction) with the required workability in mortar and concrete.",
     features: [
       "Enhanced Integral Waterproofing Compound",
       "Portland and all type of Blended Cement compatible",
@@ -17,10 +18,10 @@ const data = [
     ],
     packages: ["1 litres", "5 litres", "10 litres", "20 litres"],
     benefits: [
-      "Workability: Improves workability and cohesiveness of the mortar and concrete.",
+      "Workability: Improves the workability and cohesiveness of the mortar and concrete.",
       "Anti Bleeding: Reduces bleeding and segregation in mortar and concrete.",
-      "Compatibility: Being liquid, easily dispersible and compatible with mortar/concrete mixes.",
-      "Low Permeability: It reduces water penetrationin mortar and concrete.",
+      "Compatibility: Being liquid, easily dispersible, and compatible with mortar/concrete mixes.",
+      "Low Permeability: It reduces water penetration in mortar and concrete.",
       "Durability: Improves durability due to reduction in permeability in concrete (by improving cohesiveness in concrete) and hence protects steel against corrosion in a better way.",
       "Shrinkage: Reduces shrinkage crack development in plaster and concrete.",
     ],
@@ -99,8 +100,9 @@ const data = [
     image: "/images/waterproofing/SMARTBLOK SBR ULTRA.png",
     productBannerImg: "/images/waterproofing/banner-images/WATERPROOFING-2.jpg",
     category: "waterproofing",
+    boldTitle: "JSW SmartBlok SBR Ultra",
     description:
-      "JSW SmartBlok SBR Ultra is a selective eco-friendly styrene butadiene latex based polymeric material. This is ready to use for multi-purpose water proofing applications at leakage and seepage prone locations of new constructions including bathroom, toilet, water tank, small terraces etc.",
+      "JSW SmartBlok SBR Ultra is a selective eco-friendly styrene butadiene latex-based polymeric material. This is ready to use for multi-purpose waterproofing applications at leakage and seepage-prone locations of new constructions including bathrooms, toilets, water tanks, small terraces, etc.",
     features: [
       "Performance Modifier & Bonding Agent for Old to New (Mortar, Concrete).",
       "Shrink Proof, Crack Resist, in Proof bond strength",
@@ -108,9 +110,9 @@ const data = [
     ],
     packages: ["1 kg", "5 kg", "10 kg", "20 kg"],
     benefits: [
-      "Crack prevention: The improved flexural strength prevents the crack generation.",
+      "Crack prevention: The improved flexural strength prevents crack generation.",
       "Hardness: It improves the surface hardness and prevents dust generation",
-      "Shrinkage: Itreducesthedryingshrinkages.",
+      "Shrinkage: It Reduces The Drying Shrinkage.",
       "Bonding: It provides improved bonding for concrete, mortar, for new construction as well as repair works.",
       "Erosion & Corrosion:ThereducesErosionandCorrosion.",
     ],
@@ -167,8 +169,9 @@ const data = [
     productBannerImg: "/images/waterproofing/banner-images/WATERPROOFING-3.jpg",
     subTitle:
       "ECO-FRIENDLY MULTIPURPOSE HIGH PERFORMANCE SBR POLYMER FOR WATER PROOFING & REPAIR",
+    boldTitle: "JSW SmartBlok SBR Ultra Plus",
     description:
-      "JSW SmartBlok Ultra PLUS is a selective eco-friendly styrene butadiene latex based high performance polymeric material. This is ready to use for multi-purpose water proofing applications at leakage and seepage prone locations of new constructions including bathroom, toilet, water tank, small terraces etc.",
+      "JSW SmartBlok Ultra PLUS is a selective eco-friendly styrene butadiene latex-based high-performance polymeric material. This is ready to use for multi-purpose waterproofing applications at leakage and seepage-prone locations of new constructions including bathrooms, toilets, water tanks, small terraces, etc",
     features: [
       "Multipurpose Admixture & Bonding Agent for Old to New (Mortar, Concrete).",
       "High Performance bond strength. Watertight masonry jointing",
@@ -176,12 +179,12 @@ const data = [
     ],
     packages: ["1 kg", "5 kg", "20 kg"],
     benefits: [
-      "Crack prevention: The improved flexural strength prevents the crack generation.",
+      "Crack prevention: The improved flexural strength prevents crack generation.",
       "Hardness: It improves the surface hardness and prevents dust generation",
-      "Shrinkage:Itreducesthedryingshrinkages.",
+      "Shrinkage: It reduces drying shrinkage.",
       "Bonding: It provides improved bonding for concrete, mortar, for new construction as well as repair works.",
-      "Erosion&Corrosion: ThereducesErosionandCorrosion.",
-      "Eco-Friendly: Made using natural materials & ingredients",
+      "Erosion & Corrosion: The reduces Erosion and Corrosion.",
+      "Eco-Friendly: Made using natural materials & ingredients.",
     ],
     relatedProducts: [
       {
@@ -236,8 +239,9 @@ const data = [
     productBannerImg: "/images/waterproofing/banner-images/WATERPROOFING-4.jpg",
     subTitle:
       "WEATHERPROOF HIGH PERFORMANCE ACRYLIC POLYMER FOR WATERPROOFING & REPAIR APPLICATION",
+    boldTitle: "JSW SmartBlok Universal Polymer",
     description:
-      "JSW SmartBlok Universal Polymer is a modified acrylic emulsion based material. This material is specially designed for exterior water proofing. Addition of this material provides improved adhesion at old to new concrete and plaster. It is a universal bonding material for concrete and masonry repair.",
+      "JSW SmartBlok Universal Polymer is a modified acrylic emulsion-based material. This material is specially designed for exterior waterproofing. The addition of this material provides improved adhesion from old to new concrete and plaster. It is a universal bonding material for concrete and masonry repair.",
     features: [
       "Superior Performance bond strength. Shrink Reducer.",
       "Good Crack Bridging Strength, abrasion resistance properties",
@@ -245,12 +249,12 @@ const data = [
     ],
     packages: ["1 kg", "5 kg", "10 kg", "20 kg"],
     benefits: [
-      "Crack prevention: The improved flexural strength prevents the crack generation.",
+      "Crack prevention: The improved flexural strength prevents crack generation.",
       "Hardness: It improves the surface hardness and prevents dust generation",
-      "Shrinkage: Itreducesthedryingshrinkages.",
+      "Shrinkage: It Reduces The Drying Shrinkage.",
       "Bonding: It provides improved bonding for concrete, mortar, for new construction as well as repair works.",
       "Erosion & Corrosion: This reduces erosion and corrosion.",
-      "Flexible Coating: This provides a flexible coating for exterior and interior application",
+      "Flexible Coating: This provides a flexible coating for exterior and interior application.",
     ],
     relatedProducts: [
       {
@@ -300,8 +304,9 @@ const data = [
     productBannerImg: "/images/waterproofing/banner-images/WATERPROOFING-5.jpg",
     leaflet: "/pdf/products/CEM-2K-ULTRA.pdf",
     subTitle: "High Performance Acrylic Cementitious Waterproofing Coating",
+    boldTitle: "JSW SmartBlok Acrycem 2K",
     description:
-      "JSW SmartBlok Acrycem 2K is a two-component water proofing product, based on acrylic and cementitious materials. It forms an excellent flexible film coating on the concrete and mortar substrate, that provides superior water proofing.",
+      "JSW SmartBlok Acrycem 2K is a two-component waterproofing product, based on acrylic and cementitious materials. It forms an excellent flexible film coating on the concrete and mortar substrate that provides superior waterproofing.",
     features: [
       "Anti Efflorescence",
       "Good Crack Bridging Ability",
@@ -309,7 +314,7 @@ const data = [
     ],
     packages: ["15 kg", "30 kg"],
     benefits: [
-      "Flexible Film: It forms flexible film coating that accommodates cracks and provide better hiding on the surface.",
+      "Flexible Film: It forms a flexible film coating that accommodates cracks and provides better hiding on the surface.",
       "Water Resistance: It provides excellent resistance to water uptake.",
       "Adhesion: It exhibits superior adhesion to concrete and masonry surfaces.",
       "Eco-Friendly: It is composed of eco-friendly materials with low VOC.",
@@ -366,8 +371,9 @@ const data = [
     image: "/images/waterproofing/SMARTBLOK CEM 2K ULTRA PLUS.png",
     productBannerImg: "/images/waterproofing/banner-images/WATERPROOFING-6.jpg",
     subTitle: "Superior Performance Acrylic Cementitious Waterproofing Coating",
+    boldTitle: "JSW SmartBlok Cem 2K Ultra Plus",
     description:
-      "JSW SmartBlok Cem 2K Ultra Plus is a modified polymer and cementitious hybrid Superior performance, ultra- flexible two-part water proofing coat.",
+      "JSW SmartBlok Cem 2K Ultra Plus is a modified polymer and cementitious hybrid Superior performance, ultra- flexible two-part waterproofing coat.",
     features: [
       "Anti Efflorescence",
       "Good Crack Bridging Ability",
@@ -375,10 +381,10 @@ const data = [
     ],
     packages: ["12 kg", "24 kg"],
     benefits: [
-      "WaterBlocking:Itcreatesawaterimpermeablefilmcoat, adhered on the cementitious substrates. This covers all the cracks and pin-holes and water passages to ensure ultimate resistance towards water seepage.",
-      "Ultra-Flexibility: The formed film possesses excellent flexibility. This ensure better crack-bridging ability.",
-      "Adhesion: It exhibits excellent adhesion on old/new concrete, mortar and other masonry surfaces.",
-      "Eco-friendly: It is composed of eco-friendly materials with low VOC. This makes it application-friendly and eco- friendly.",
+      "WaterBlocking: It Creates A Water Impermeable Film Coat, adhered to the cementitious substrates. This covers all the cracks, pin-holes, and water passages to ensure ultimate resistance towards water seepage.",
+      "Ultra-Flexibility: The formed film possesses excellent flexibility. This ensures better crack-bridging ability.",
+      "Adhesion: It exhibits excellent adhesion on old/new concrete, mortar, and other masonry surfaces.",
+      "Eco-friendly: It is composed of eco-friendly materials with low VOC. This makes it application-friendly and eco-friendly.",
     ],
     relatedProducts: [
       {
