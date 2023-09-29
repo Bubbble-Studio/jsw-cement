@@ -43,11 +43,15 @@ function getColor() {
       <ul class="features">
         {
           features.map((feature) => (
-            <li class="my-2 fw-bold" style={`color:${JSW_COLORS.text.grey}`}>
+            <li
+              class="my-2 fw-bold d-flex jusity-content-start"
+              style={`color:${JSW_COLORS.text.grey}`}
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
+                style="width:24px;height:24px;min-width: 24px;min-height: 24px;"
                 viewBox="0 0 24 24"
                 fill="none"
               >
@@ -59,7 +63,7 @@ function getColor() {
                   fill="white"
                 />
               </svg>
-              <span class="ml-3">{feature}</span>
+              <span class="ml-3 d-block">{feature}</span>
             </li>
           ))
         }

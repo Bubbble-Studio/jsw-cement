@@ -20,7 +20,7 @@ let { title, image, buttonText, buttonLink, hasButton, categoryTitle } =
   {
     hasButton && (
       <AnchorButton
-        style={`background-color:${JSW_COLORS.bg.light}; color: ${JSW_COLORS.text.dark}`}
+        style={`background-color:${JSW_COLORS.bg.light}; color: ${JSW_COLORS.text.dark}; z-index: 1;`}
         className="mt-4"
         href={buttonLink}
         download={`${categoryTitle}.pdf`}
@@ -38,6 +38,24 @@ let { title, image, buttonText, buttonLink, hasButton, categoryTitle } =
     border-radius: 2rem;
     color: white;
     height: 400px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .download-catalogue-bblstds > *,
+  a {
+    z-index: 1;
+  }
+
+  .download-catalogue-bblstds::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, black, transparent);
+    z-index: 0;
   }
 
   @media screen and (max-width: 768px) {
