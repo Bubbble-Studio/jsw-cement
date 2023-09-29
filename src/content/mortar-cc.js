@@ -6,7 +6,7 @@ const data = [
     image: "/images/mortar/ENDURO-PLAST.png",
     category: "mortar",
     productBannerImg: "/images/mortar/banner-images/MORTAR-2.jpg",
-    leaflet: null,
+    leaflet: "/pdf/products/ENDURO-PLAST.pdf",
     description:
       "Single component rendering mortar with a ratio of graded inert sand with cement and polymers for applications in civil construction works.",
     features: ["For Ceillings", "For Walls"],

@@ -2,11 +2,11 @@
 const { product, style } = Astro.props;
 ---
 
-<div class={`product-box-bblestds`} {style}>
+<a href={product.link} class={`product-box-bblestds`} {style}>
   <img
     style={{
       height: "80%",
-      maxWidth: "100%",
+      maxWidth: "90%",
       objectFit: "contain",
     }}
     src={product.image}
@@ -20,8 +20,8 @@ const { product, style } = Astro.props;
   >
     {product.title || product.name}
   </h5>
-  <a class="product-button-bblestds" href={product.link}>View Details</a>
-</div>
+  <!-- <a class="product-button-bblestds" href={product.link}>View Details</a> -->
+</a>
 
 <style>
   .product-box-bblestds {
@@ -41,7 +41,7 @@ const { product, style } = Astro.props;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
   }
-  .product-box-bblestds::after {
+  /* .product-box-bblestds::after {
     content: "";
     position: absolute;
     top: 0;
@@ -52,17 +52,17 @@ const { product, style } = Astro.props;
     background: linear-gradient(180deg, #21336826, #21336899);
     z-index: 2;
     transition: all 0.3s ease-in-out;
-  }
+  } */
   .product-box-bblestds:hover::after {
     top: 0;
     opacity: 1;
     left: 0;
   }
-  .product-box-bblestds:hover h5 {
+  .product-box-bblestds h5 {
     transition: all 0.3s ease-in-out;
-    color: white;
-    z-index: 4;
-    transform: translateY(-7rem);
+  }
+  .product-box-bblestds:hover h5 {
+    transform: translateY(1rem);
   }
   .product-box-bblestds img {
     transition: all 0.3s ease-in-out;
