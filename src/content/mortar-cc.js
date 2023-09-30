@@ -18,7 +18,7 @@ const data = [
       "Increased Curing efficiency.",
       "Improves bond strength with applied substrate.",
       "Reduce Rebound losses.",
-      "Better tensile and flexural strength.",
+      "Better tensile and Flexural strength.",
       "Increase in durability.",
       "The faster rate of application.",
       "Extended application time.",
@@ -79,7 +79,7 @@ const data = [
     packages: ["40 kg"],
     benefits: [
       "Cohesive & workable mortar.",
-      "High tensile & flexural with strong bonding.",
+      "High tensile & Flexural strength with strong bonding.",
       "Consistent spread for a faster rate of application.",
       "Uniform and smooth joint finishes.",
       "Reduced surface porosity & voids.",

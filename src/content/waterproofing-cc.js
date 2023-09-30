@@ -113,10 +113,10 @@ const data = [
     packages: ["1 kg", "5 kg", "10 kg", "20 kg"],
     benefits: [
       "Crack prevention: The improved flexural strength prevents crack generation.",
-      "Hardness: It improves the surface hardness and prevents dust generation",
+      "Hardness: It improves the surface hardness and prevents dust generation.",
       "Shrinkage: It Reduces The Drying Shrinkage.",
       "Bonding: It provides improved bonding for concrete, mortar, for new construction as well as repair works.",
-      "Erosion & Corrosion:ThereducesErosionandCorrosion.",
+      "Erosion & Corrosion: This reduces Erosion and Corrosion.",
     ],
     relatedProducts: [
       {
@@ -172,12 +172,12 @@ const data = [
     productBannerImg: "/images/waterproofing/banner-images/WATERPROOFING-3.jpg",
     subTitle:
       "ECO-FRIENDLY MULTIPURPOSE HIGH PERFORMANCE SBR POLYMER FOR WATER PROOFING & REPAIR",
-    boldTitle: "JSW SmartBlok SBR Ultra Plus",
+    boldTitle: "JSW SmartBlok Ultra PLUS",
     description:
       "JSW SmartBlok Ultra PLUS is a selective eco-friendly styrene butadiene latex-based high-performance polymeric material. This is ready to use for multi-purpose waterproofing applications at leakage and seepage-prone locations of new constructions including bathrooms, toilets, water tanks, small terraces, etc",
     features: [
       "Multipurpose Admixture & Bonding Agent for Old to New (Mortar, Concrete).",
-      "High Performance bond strength. Watertight masonry jointing",
+      "High Performance bond strength. Watertight masonry jointing.",
       "Versatile - Compatible with all common hydraulic cements.",
     ],
     packages: ["1 kg", "5 kg", "20 kg"],
@@ -186,7 +186,7 @@ const data = [
       "Hardness: It improves the surface hardness and prevents dust generation",
       "Shrinkage: It reduces drying shrinkage.",
       "Bonding: It provides improved bonding for concrete, mortar, for new construction as well as repair works.",
-      "Erosion & Corrosion: The reduces Erosion and Corrosion.",
+      "Erosion & Corrosion: This reduces Erosion and Corrosion.",
       "Eco-Friendly: Made using natural materials & ingredients.",
     ],
     relatedProducts: [
@@ -254,7 +254,7 @@ const data = [
     packages: ["1 kg", "5 kg", "10 kg", "20 kg"],
     benefits: [
       "Crack prevention: The improved flexural strength prevents crack generation.",
-      "Hardness: It improves the surface hardness and prevents dust generation",
+      "Hardness: It improves the surface hardness and prevents dust generation.",
       "Shrinkage: It Reduces The Drying Shrinkage.",
       "Bonding: It provides improved bonding for concrete, mortar, for new construction as well as repair works.",
       "Erosion & Corrosion: This reduces erosion and corrosion.",
@@ -387,7 +387,7 @@ const data = [
     ],
     packages: ["12 kg", "24 kg"],
     benefits: [
-      "WaterBlocking: It Creates A Water Impermeable Film Coat, adhered to the cementitious substrates. This covers all the cracks, pin-holes, and water passages to ensure ultimate resistance towards water seepage.",
+      "WaterBlocking: It creates a Water Impermeable film coat, adhered to the cementitious substrates. This covers all the cracks, pin-holes, and water passages to ensure ultimate resistance towards water seepage.",
       "Ultra-Flexibility: The formed film possesses excellent flexibility. This ensures better crack-bridging ability.",
       "Adhesion: It exhibits excellent adhesion on old/new concrete, mortar, and other masonry surfaces.",
       "Eco-friendly: It is composed of eco-friendly materials with low VOC. This makes it application-friendly and eco-friendly.",
