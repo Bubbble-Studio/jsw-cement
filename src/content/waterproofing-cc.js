@@ -11,7 +11,7 @@ const data = [
     tds: "/pdf/tds/waterproofing/SmartBlok_IWC_+200_TDS.pdf",
     boldTitle: "JSW SmartBlok IWC+ 200",
     description:
-      "JSW Smart Blok IWC+ 200 is an Integral liquid waterproofing compound composed of surface active plasticizers, polymers, and additives. It reduces the water demand (6-8% reduction) with the required workability in mortar and concrete.",
+      "JSW SmartBlok IWC+ 200 is an Integral liquid waterproofing compound composed of surface active plasticizers, polymers, and additives. It reduces the water demand (6-8% reduction) with the required workability in mortar and concrete.",
     features: [
       "Enhanced Integral Waterproofing Compound",
       "Portland and all type of Blended Cement compatible",
