@@ -6,6 +6,7 @@ const data = [
     productBannerImg: "/images/tile-adhesive/banner-images/TILE-ADHESIVE-1.jpg",
     image: "/images/tile-adhesive/JSW-TYLFIX-TYPE-1.png",
     leaflet: "/pdf/products/JSW-TILE-ADHESIVE-TYPE-1.pdf",
+    tds: "/pdf/tds/tile-adhesive/Tylfix_Type1_TDS.pdf",
     category: "tile-adhesive-grout-cleaner",
     boldTitle: "JSW Tylfix Type 1",
     description:
@@ -90,6 +91,7 @@ const data = [
     productBannerImg: "/images/tile-adhesive/banner-images/TILE-ADHESIVE-2.jpg",
     category: "tile-adhesive-grout-cleaner",
     leaflet: "/pdf/products/JSW-TILE-ADHESIVE-TYPE-2.pdf",
+    tds: "/pdf/tds/tile-adhesive/Tylfix_Type2_TDS.pdf",
     boldTitle: "JSW Tylfix Type 2",
     description:
       "JSW Tylfix Type 2 is a polymer-modified cement-based powder tile adhesive for fixing all types of ceramic tile, terracotta, pavers, brick vitrified tiles, and glass. It is suitable for flooring and walls, internal applications & external shaded areas, external areas, dry & wet areas, new construction & renovation, domestic applications, and commercial applications.",
@@ -174,6 +176,7 @@ const data = [
     image: "/images/tile-adhesive/JSW-TYLFIX-TYPE-3.png",
     productBannerImg: "/images/tile-adhesive/banner-images/TILE-ADHESIVE-3.jpg",
     leaflet: "/pdf/products/JSW-TILE-ADHESIVE-TYPE-3.pdf",
+    tds: "/pdf/tds/tile-adhesive/Tylfix_Type3_TDS.pdf",
     category: "tile-adhesive-grout-cleaner",
     boldTitle: "JSW Tylfix Type 3",
     description:
@@ -260,6 +263,7 @@ const data = [
     image: "/images/tile-adhesive/JSW-TYLFIX-TYPE-4.png",
     productBannerImg: "/images/tile-adhesive/banner-images/TILE-ADHESIVE-4.jpg",
     leaflet: "/pdf/products/JSW-TILE-ADHESIVE-TYPE-4.pdf",
+    tds: "/pdf/tds/tile-adhesive/Tylfix_Type4_TDS.pdf",
     category: "tile-adhesive-grout-cleaner",
     boldTitle: "JSW Tylfix Type 4",
     description:
@@ -342,6 +346,7 @@ const data = [
     subTitle: "CEMENT-BASED TILE JOIN FILLER GROUT",
     slug: "jsw-tylfix-grout-cementitious",
     leaflet: "/pdf/products/JSW-TYLFIX-GROUT-CEMENTITIOUS.pdf",
+    tds: "/pdf/tds/tile-adhesive/Tylfix_Grout_Cementitious_TDS.pdf",
     image: "/images/tile-adhesive/JSW-TYLFIX-GROUT-CEMENTITIOUS.png",
     productBannerImg: "/images/tile-adhesive/banner-images/TILE-ADHESIVE-5.jpg",
     category: "tile-adhesive-grout-cleaner",
@@ -423,6 +428,7 @@ const data = [
     image: "/images/tile-adhesive/JSW-TYLFIX-CLEANER.png",
     productBannerImg: "/images/tile-adhesive/banner-images/TILE-ADHESIVE-6.jpg",
     leaflet: "/pdf/products/JSW-TYLFIX-CLEANER.pdf",
+    tds: "/pdf/tds/tile-adhesive/Tylfix_Cleaner_TDS.pdf",
     category: "tile-adhesive-grout-cleaner",
     boldTitle: "JSW Tylfix Cleaner",
     description:

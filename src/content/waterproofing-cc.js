@@ -8,6 +8,7 @@ const data = [
     productBannerImg: "/images/waterproofing/banner-images/WATERPROOFING-1.jpg",
     category: "waterproofing",
     leaflet: "/pdf/products/SB-IWC.pdf",
+    tds: "/pdf/tds/waterproofing/SmartBlok_IWC_+200_TDS.pdf",
     boldTitle: "JSW SmartBlok IWC+ 200",
     description:
       "JSW Smart Blok IWC+ 200 is an Integral liquid waterproofing compound composed of surface active plasticizers, polymers, and additives. It reduces the water demand (6-8% reduction) with the required workability in mortar and concrete.",
@@ -97,6 +98,7 @@ const data = [
     slug: "smartblok-sbr-ultra",
     category: "waterproofing",
     leaflet: "/pdf/produts/SBR-ULTRA.pdf",
+    tds: "/pdf/tds/waterproofing/SmartBlok_SBR_Ultra_TDS.pdf",
     image: "/images/waterproofing/SMARTBLOK SBR ULTRA.png",
     productBannerImg: "/images/waterproofing/banner-images/WATERPROOFING-2.jpg",
     category: "waterproofing",
@@ -165,6 +167,7 @@ const data = [
     slug: "smartblok-sbr-ultra-plus",
     category: "waterproofing",
     leaflet: "/pdf/products/SBR-ULTRA-PLUS.pdf",
+    tds: "/pdf/tds/waterproofing/SmartBlok_SBR_Ultra_Plus_TDS.pdf",
     image: "/images/waterproofing/SMARTBLOK SBR ULTRA PLUS.png",
     productBannerImg: "/images/waterproofing/banner-images/WATERPROOFING-3.jpg",
     subTitle:
@@ -235,6 +238,7 @@ const data = [
     slug: "smartblok-universal-polymer",
     category: "waterproofing",
     leaflet: "/pdf/products/UNIVERSAL-POLYMER.pdf",
+    tds: "/pdf/tds/waterproofing/SmartBlok_Universal_Polymer_TDS.pdf",
     image: "/images/waterproofing/SMARTBLOK UNIVERSAL POLYMER.png",
     productBannerImg: "/images/waterproofing/banner-images/WATERPROOFING-4.jpg",
     subTitle:
@@ -303,6 +307,7 @@ const data = [
     image: "/images/waterproofing/SMARTBLOK CEM 2K ULTRA.png",
     productBannerImg: "/images/waterproofing/banner-images/WATERPROOFING-5.jpg",
     leaflet: "/pdf/products/CEM-2K-ULTRA.pdf",
+    tds: "/pdf/tds/waterproofing/SmartBlok_Cem_2K_Ultra_TDS.pdf",
     subTitle: "High Performance Acrylic Cementitious Waterproofing Coating",
     boldTitle: "JSW SmartBlok Acrycem 2K",
     description:
@@ -368,6 +373,7 @@ const data = [
     slug: "smartblok-cem-2k-ultra-plus",
     category: "waterproofing",
     leaflet: "/pdf/products/CEM-2K-ULTRA-PLUS.pdf",
+    tds: "/pdf/tds/waterproofing/SmartBlok_Cem_2K_Ultra_Plus_TDS.pdf",
     image: "/images/waterproofing/SMARTBLOK CEM 2K ULTRA PLUS.png",
     productBannerImg: "/images/waterproofing/banner-images/WATERPROOFING-6.jpg",
     subTitle: "Superior Performance Acrylic Cementitious Waterproofing Coating",

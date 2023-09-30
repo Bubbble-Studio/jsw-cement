@@ -21,6 +21,7 @@ const {
   leaflet,
   productBannerImg,
   boldTitle,
+  tds,
 } = data;
 
 const AvailableHeaders = {
@@ -158,6 +159,8 @@ const descriptionWithBoldTitle = getDescriptinWithBoldTitleHTML();
         <AnchorButton
           style={`border-color:${JSW_COLORS.p2} !important; color:${JSW_COLORS.p2}`}
           className="border text-center"
+          href={tds}
+          download={`${title} - TDS.pdf`}
         >
           Technical Data Sheet
           <DownloadIcon className="ml-3" />
@@ -362,7 +365,7 @@ const descriptionWithBoldTitle = getDescriptinWithBoldTitleHTML();
   .slider-arrow {
     position: absolute;
     top: 50%;
-    right: -25px;
+    right: -15px;
     transform: translateY(-50%);
     width: 25px;
     height: 25px;
@@ -382,7 +385,7 @@ const descriptionWithBoldTitle = getDescriptinWithBoldTitleHTML();
   }
 
   .slider-arrow.left {
-    left: -25px;
+    left: -15px;
     right: auto;
     transform: translateY(-50%) rotate(180deg);
     z-index: 1;
