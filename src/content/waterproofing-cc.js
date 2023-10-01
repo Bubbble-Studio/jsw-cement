@@ -97,7 +97,7 @@ const data = [
       "ECO FRIENDLY MULTIPURPOSE SBR POLYMER FOR WATER PROOFING & REPAIR",
     slug: "smartblok-sbr-ultra",
     category: "waterproofing",
-    leaflet: "/pdf/produts/SBR-ULTRA.pdf",
+    leaflet: "/pdf/products/SBR-ULTRA.pdf",
     tds: "/pdf/tds/waterproofing/SmartBlok_SBR_Ultra_TDS.pdf",
     image: "/images/waterproofing/SMARTBLOK SBR ULTRA.png",
     productBannerImg: "/images/waterproofing/banner-images/WATERPROOFING-2.jpg",
