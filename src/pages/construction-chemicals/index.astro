@@ -8,7 +8,11 @@ import { JSW_COLORS } from "../../utils/constants.js";
 const sliderImages = ["/images/construction-chemicals/main-banner-img.jpg"];
 ---
 
-<MainLayout>
+<MainLayout
+  title="Construction Chemicals - JSW Cement"
+  desc="JSW cement is a leading green cement company in India we offer eco-friendly construction and building solutions & provide best-quality Green Cement to our customers."
+  metaImg="/images/construction-chemicals/main-banner-img.jpg"
+>
   <section class="hero-slider">
     {
       sliderImages.map((img) => (
@@ -23,15 +27,6 @@ const sliderImages = ["/images/construction-chemicals/main-banner-img.jpg"];
     }
   </section>
   <SectionLayout className="my-5">
-    <!-- <div
-      class="d-flex justify-content-start align-items-center"
-      style={`color:${JSW_COLORS.p1}`}
-    >
-      <span
-        style={`display:block; width:30px; height:2px; background:${JSW_COLORS.p1}`}
-      ></span>
-      <p class="mb-0 ml-2">SOLUTIONS</p>
-    </div> -->
     <h1>Wide Range of Solutions:</h1>
   </SectionLayout>
   <CategorySection
