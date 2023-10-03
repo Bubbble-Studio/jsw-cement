@@ -7,8 +7,27 @@ const { pathname } = Astro.url;
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/construction-chemicals/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/construction-chemicals/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/construction-chemicals/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="manifest"
+      href="/construction-chemicals/favicon/site.webmanifest"
+    />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
@@ -97,16 +116,16 @@ const { pathname } = Astro.url;
 <script is:inline src="/js/main.js"></script>
 
 <script is:inline>
-$(document).ready(function () {
-  $(".collapse").on("shown.bs.collapse", function (e) {
-    var $card = $(this).closest(".card");
+  $(document).ready(function () {
+    $(".collapse").on("shown.bs.collapse", function (e) {
+      var $card = $(this).closest(".card");
 
-    $("html,body").animate(
-      {
-        scrollTop: $card.offset().top,
-      },
-      500
-    );
+      $("html,body").animate(
+        {
+          scrollTop: $card.offset().top,
+        },
+        500
+      );
+    });
   });
-});
 </script>
