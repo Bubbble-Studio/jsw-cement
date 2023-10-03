@@ -14,7 +14,11 @@ let products = mortarProducts.map((product) => ({
 let otherCategories = CATEGORY_LIST.filter((cat) => cat.title !== "Mortar");
 ---
 
-<MainLayout>
+<MainLayout
+  title={`${Title} (CC) - JSW Cement`}
+  desc="Smooth finishes just got a whole lot stronger! The Block Grip Adhesive helps form a robust bond with reduced water consumption, complemented by Enduro Plast's enhanced bond strength & minimized rebound."
+  metaImg={Image}
+>
   <Category
     headerBG={Image}
     title={Title}
