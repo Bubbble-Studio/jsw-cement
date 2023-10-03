@@ -47,9 +47,20 @@ function getDescriptinWithBoldTitleHTML() {
   return html;
 }
 const descriptionWithBoldTitle = getDescriptinWithBoldTitleHTML();
+
+function capitalizeAllInitials(str) {
+  return str
+    .split(" ")
+    .map((word) => word[0].toUpperCase() + word.slice(1))
+    .join(" ");
+}
 ---
 
-<MainLayout title={`${title} - JSW Cement`} desc={description} metaImg={image}>
+<MainLayout
+  title={`${capitalizeAllInitials(title)} - JSW Cement`}
+  desc={description}
+  metaImg={image}
+>
   <div
     style={`height: 400px; width: 100%; background-size: cover; background-image: url(${
       productBannerImg ||
